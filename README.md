@@ -1,16 +1,47 @@
-## Hi there 👋
+# Hi 👋 I'm Krishna Sharma
 
-<!--
-**krishnasharma-cloudops/krishnasharma-cloudops** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 Azure Cloud & DevOps Engineer
 
-Here are some ideas to get you started:
+Passionate about designing scalable cloud infrastructure, automating deployments, and building reliable CI/CD workflows.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## ☁️ Cloud & DevOps Expertise
+- Microsoft Azure  
+- Azure DevOps  
+- Terraform (Infrastructure as Code)  
+- Docker & Kubernetes  
+- Linux Administration  
+- CI/CD Pipeline Automation  
+- Monitoring & Troubleshooting  
+
+---
+
+## 🛠️ Tools & Technologies
+Azure • Terraform • GitHub Actions • Docker • Kubernetes • Linux • Bash • YAML • Git
+
+---
+
+## 📌 Current Focus
+- Automating infrastructure deployment  
+- Managing cloud resources on Azure  
+- Building CI/CD pipelines  
+- Deploying containerized applications  
+- Improving system performance & reliability  
+
+---
+
+## 📂 Featured Areas
+- Cloud Infrastructure  
+- DevOps Automation  
+- Container Orchestration  
+- Infrastructure as Code  
+
+---
+
+## 📫 Connect With Me
+📧 krishna.sharma.cloud.ops@gmail.com
+
+---
+
+⭐ Always learning and building better cloud solutions.
