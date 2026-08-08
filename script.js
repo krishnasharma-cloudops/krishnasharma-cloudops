@@ -23,3 +23,25 @@ if(window.THREE){
  const clock=new THREE.Clock();function animate(){requestAnimationFrame(animate);const t=clock.getElapsedTime();core.rotation.x=t*.15;core.rotation.y=t*.22;inner.rotation.x=-t*.25;inner.rotation.z=t*.2;group.rotation.y+=(mx*.28-group.rotation.y)*.025;group.rotation.x+=(-my*.18-group.rotation.x)*.025;nodes.forEach((n,i)=>n.scale.setScalar(1+Math.sin(t*2+i)*.12));renderer.render(scene,camera)}animate();
  function resize(){camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);if(innerWidth<900)group.position.x=1.3;else group.position.x=2.7}window.addEventListener('resize',resize);resize();
 }
+
+// V2 motion polish: scroll progress, card spotlight/tilt, typing loop
+const progressBar=document.querySelector('.page-progress span');
+window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;progressBar.style.transform=`scaleX(${h>0?scrollY/h:0})`},{passive:true});
+
+const motionCards=document.querySelectorAll('.skill-card,.project-card,.timeline-card');
+motionCards.forEach(card=>{
+  card.addEventListener('pointermove',e=>{
+    if(innerWidth<900)return;
+    const r=card.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;
+    card.style.setProperty('--mx',`${x}px`);card.style.setProperty('--my',`${y}px`);
+    const rx=((y/r.height)-.5)*-5,ry=((x/r.width)-.5)*7;
+    card.style.transform=`perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-3px)`;
+  });
+  card.addEventListener('pointerleave',()=>card.style.transform='');
+});
+
+const typeTarget=document.querySelector('#typeText');
+if(typeTarget){
+ const words=['Terraform','Kubernetes','CI/CD','Automation'];let wi=0,ci=0,deleting=false;
+ const tick=()=>{const word=words[wi];typeTarget.textContent=word.slice(0,ci);if(!deleting&&ci<word.length){ci++;setTimeout(tick,90)}else if(!deleting){deleting=true;setTimeout(tick,1200)}else if(ci>0){ci--;setTimeout(tick,45)}else{deleting=false;wi=(wi+1)%words.length;setTimeout(tick,250)}};tick();
+}

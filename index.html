@@ -23,7 +23,10 @@
   </div>
 
   <div class="noise"></div>
+  <div class="aurora aurora-a"></div>
+  <div class="aurora aurora-b"></div>
   <div class="cursor-glow"></div>
+  <div class="page-progress" aria-hidden="true"><span></span></div>
 
   <header class="nav-wrap">
     <nav class="nav container">
@@ -39,11 +42,15 @@
     <section id="home" class="hero section">
       <canvas id="threeCanvas" aria-label="Interactive 3D cloud infrastructure visualization"></canvas>
       <div class="hero-glow"></div>
+      <div class="hero-orbit-ui" aria-hidden="true">
+        <span class="float-chip fc1">AZURE</span><span class="float-chip fc2">AWS</span><span class="float-chip fc3">GCP</span>
+        <span class="float-chip fc4">TERRAFORM</span><span class="float-chip fc5">K8s</span><span class="float-chip fc6">CI/CD</span>
+      </div>
       <div class="container hero-grid">
         <div class="hero-copy reveal">
           <div class="status"><i></i> DevOps Engineer · Noida, India</div>
           <h1>Engineering the<br><span class="gradient-text">cloud behind</span><br>great products.</h1>
-          <p>I design, automate and operate secure, scalable cloud infrastructure across Azure, AWS and GCP — with Terraform, Kubernetes and modern CI/CD.</p>
+          <p>I design, automate and operate secure, scalable cloud infrastructure across Azure, AWS and GCP — with <span id="typeText">Terraform</span>, Kubernetes and modern CI/CD.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projects">Explore Work <span>↓</span></a>
             <button class="btn btn-ghost resume-trigger">View Resume <span>↗</span></button>
@@ -57,6 +64,13 @@
         <div class="hero-spacer" aria-hidden="true"></div>
       </div>
       <div class="scroll-cue">SCROLL TO DEPLOY <span>↓</span></div>
+    </section>
+
+    <section class="tech-marquee" aria-label="DevOps technology stack">
+      <div class="marquee-track">
+        <span>AZURE</span><i>✦</i><span>AWS</span><i>✦</i><span>GCP</span><i>✦</i><span>TERRAFORM</span><i>✦</i><span>DOCKER</span><i>✦</i><span>KUBERNETES</span><i>✦</i><span>GITHUB ACTIONS</span><i>✦</i><span>AZURE DEVOPS</span><i>✦</i>
+        <span>AZURE</span><i>✦</i><span>AWS</span><i>✦</i><span>GCP</span><i>✦</i><span>TERRAFORM</span><i>✦</i><span>DOCKER</span><i>✦</i><span>KUBERNETES</span><i>✦</i><span>GITHUB ACTIONS</span><i>✦</i><span>AZURE DEVOPS</span><i>✦</i>
+      </div>
     </section>
 
     <section id="about" class="section about-section">
