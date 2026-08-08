@@ -45,3 +45,26 @@ if(typeTarget){
  const words=['Terraform','Kubernetes','CI/CD','Automation'];let wi=0,ci=0,deleting=false;
  const tick=()=>{const word=words[wi];typeTarget.textContent=word.slice(0,ci);if(!deleting&&ci<word.length){ci++;setTimeout(tick,90)}else if(!deleting){deleting=true;setTimeout(tick,1200)}else if(ci>0){ci--;setTimeout(tick,45)}else{deleting=false;wi=(wi+1)%words.length;setTimeout(tick,250)}};tick();
 }
+
+// V3: active navigation, counters, magnetic buttons and cinematic parallax
+const sections=[...document.querySelectorAll('main section[id]')];
+const navAnchors=[...document.querySelectorAll('.nav-links a')];
+const navObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){navAnchors.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));}})},{rootMargin:'-35% 0px -55% 0px',threshold:0});
+sections.forEach(s=>navObserver.observe(s));
+
+const countEls=document.querySelectorAll('[data-count]');
+const countObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(!entry.isIntersecting||entry.target.dataset.done)return;entry.target.dataset.done='1';const target=parseFloat(entry.target.dataset.count);let start=0;const t0=performance.now();function frame(now){const p=Math.min((now-t0)/1100,1),v=target*(1-Math.pow(1-p,3));entry.target.textContent=(Number.isInteger(target)?Math.round(v):v.toFixed(1))+(target===3.5?'+':'');if(p<1)requestAnimationFrame(frame)}requestAnimationFrame(frame)}),{threshold:.6});countEls.forEach(el=>countObserver.observe(el));
+
+document.querySelectorAll('.btn').forEach(btn=>{btn.addEventListener('pointermove',e=>{if(innerWidth<900)return;const r=btn.getBoundingClientRect();const x=(e.clientX-r.left-r.width/2)*.12,y=(e.clientY-r.top-r.height/2)*.12;btn.style.transform=`translate(${x}px,${y}px) translateY(-2px)`});btn.addEventListener('pointerleave',()=>btn.style.transform='')});
+
+window.addEventListener('scroll',()=>{const y=scrollY;document.querySelectorAll('.aurora').forEach((el,i)=>el.style.transform=`translate3d(0,${y*(i?-.035:.025)}px,0)`);},{passive:true});
+
+// V4: mobile nav, scroll-linked depth, spotlight cards, reduced-motion friendly details
+const mobileMenu=document.querySelector('.mobile-menu');
+const navLinksWrap=document.querySelector('.nav-links');
+if(mobileMenu&&navLinksWrap){mobileMenu.addEventListener('click',()=>{const open=navLinksWrap.classList.toggle('open');mobileMenu.classList.toggle('open',open);mobileMenu.setAttribute('aria-expanded',String(open))});navLinksWrap.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinksWrap.classList.remove('open');mobileMenu.classList.remove('open');mobileMenu.setAttribute('aria-expanded','false')}));}
+
+document.querySelectorAll('.impact-card').forEach(card=>card.addEventListener('pointermove',e=>{const r=card.getBoundingClientRect();card.style.setProperty('--mx',`${e.clientX-r.left}px`);card.style.setProperty('--my',`${e.clientY-r.top}px`)}));
+
+const depthTargets=[...document.querySelectorAll('.cloud-command,.hero-orbit-ui')];
+window.addEventListener('pointermove',e=>{if(innerWidth<900||matchMedia('(prefers-reduced-motion: reduce)').matches)return;const x=(e.clientX/innerWidth-.5),y=(e.clientY/innerHeight-.5);depthTargets.forEach((el,i)=>{const d=i?8:14;el.style.translate=`${x*d}px ${y*d}px`})});
