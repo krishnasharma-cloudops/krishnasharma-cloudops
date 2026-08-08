@@ -1,134 +1,154 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Krishna Sharma - DevOps Engineer portfolio. Azure, AWS, GCP, Terraform, Docker, Kubernetes, CI/CD, Linux and infrastructure automation." />
+  <meta name="theme-color" content="#050816" />
+  <meta name="description" content="Krishna Sharma — DevOps Engineer portfolio. Azure, AWS, GCP, Terraform, Docker, Kubernetes, CI/CD and infrastructure automation." />
   <title>Krishna Sharma | DevOps Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="bg-grid"></div>
-  <header class="header">
-    <a class="brand" href="#home"><span>KS</span><strong>Krishna Sharma</strong></a>
-    <nav id="nav" class="nav" aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
+  <div id="loader" class="loader">
+    <div class="loader-grid"></div>
+    <div class="loader-content">
+      <div class="loader-mark"><span>KS</span></div>
+      <p class="eyebrow">CLOUD · AUTOMATION · DELIVERY</p>
+      <h1>Building reliable infrastructure<br><span>from code to cloud.</span></h1>
+      <button id="enterBtn" class="btn btn-primary">Enter Portfolio <span>↗</span></button>
+    </div>
+  </div>
+
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Krishna Sharma home"><span class="brand-box">KS</span><span>Krishna Sharma</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a>
+      </div>
+      <button class="btn btn-ghost small resume-trigger">Resume <span>↗</span></button>
     </nav>
-    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
   </header>
 
   <main>
     <section id="home" class="hero section">
-      <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="pulse"></span> Open to DevOps & Cloud opportunities</div>
-        <p class="hello">Hello, I’m</p>
-        <h1>Krishna <span>Sharma</span></h1>
-        <h2>DevOps Engineer · Cloud Infrastructure · Automation</h2>
-        <p class="lead">3.5+ years of experience designing, automating and managing cloud infrastructure across Microsoft Azure, AWS and GCP — with strong hands-on work in Terraform, CI/CD, Docker, Kubernetes, Linux, security and monitoring.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="Krishna-Sharma-Resume.pdf" download>Download Resume</a>
-          <a class="btn ghost" href="#contact">Contact Me</a>
+      <canvas id="threeCanvas" aria-label="Interactive 3D cloud infrastructure visualization"></canvas>
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="status"><i></i> DevOps Engineer · Noida, India</div>
+          <h1>Engineering the<br><span class="gradient-text">cloud behind</span><br>great products.</h1>
+          <p>I design, automate and operate secure, scalable cloud infrastructure across Azure, AWS and GCP — with Terraform, Kubernetes and modern CI/CD.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore Work <span>↓</span></a>
+            <button class="btn btn-ghost resume-trigger">View Resume <span>↗</span></button>
+          </div>
+          <div class="hero-meta">
+            <div><strong>3.5+</strong><span>Years experience</span></div>
+            <div><strong>3</strong><span>Cloud platforms</span></div>
+            <div><strong>IaC</strong><span>Automation first</span></div>
+          </div>
         </div>
-        <div class="quick-links">
-          <a href="mailto:krishna.sharma.cloud.ops@gmail.com">krishna.sharma.cloud.ops@gmail.com</a>
-          <a href="tel:+919368219108">+91 93682 19108</a>
-          <span>Uttar Pradesh, India</span>
-        </div>
+        <div class="hero-spacer" aria-hidden="true"></div>
       </div>
-      <div class="hero-card reveal">
-        <div class="terminal-top"><span></span><span></span><span></span><small>cloud-profile.sh</small></div>
-        <div class="terminal-body">
-          <p><b>$</b> whoami</p><p class="out">Krishna Sharma — DevOps Engineer</p>
-          <p><b>$</b> cloud --platforms</p><p class="out">Azure · AWS · GCP</p>
-          <p><b>$</b> infra --as-code</p><p class="out">Terraform · Modules · Remote State</p>
-          <p><b>$</b> deploy --pipeline</p><p class="out">Azure DevOps · GitHub Actions · Jenkins</p>
-          <p><b>$</b> runtime --containers</p><p class="out">Docker · Kubernetes · AKS · EKS</p>
-          <p><b>$</b> status</p><p class="success">● Ready to automate infrastructure.</p>
-        </div>
-      </div>
+      <div class="scroll-cue">SCROLL TO DEPLOY <span>↓</span></div>
     </section>
 
-    <section class="stats-wrap section-tight reveal" aria-label="Key profile metrics">
-      <div class="stat"><strong>3.5+</strong><span>Years Experience</span></div>
-      <div class="stat"><strong>3</strong><span>Cloud Platforms</span></div>
-      <div class="stat"><strong>IaC</strong><span>Terraform Driven</span></div>
-      <div class="stat"><strong>CI/CD</strong><span>Automation Focus</span></div>
-    </section>
-
-    <section id="about" class="section two-col">
-      <div class="section-heading reveal"><span>01 / ABOUT</span><h2>Building secure, scalable cloud systems.</h2></div>
-      <div class="about-copy reveal">
-        <p>I’m a DevOps Engineer focused on cloud infrastructure, automation and reliable delivery. My experience spans Microsoft Azure, AWS and GCP, with Infrastructure as Code using Terraform and automated delivery through Azure DevOps, GitHub Actions and Jenkins.</p>
-        <p>I work across networking, identity, security, monitoring and Linux administration — including Microsoft Entra ID, RBAC/IAM, OAuth 2.0, Azure Key Vault, Azure Monitor, Prometheus and Grafana. I enjoy reducing manual operations and building repeatable environments that are secure by design.</p>
-        <div class="chips"><span>DevOps</span><span>DevSecOps</span><span>Cloud</span><span>Infrastructure Automation</span><span>High Availability</span></div>
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>Infrastructure should be <span>repeatable, observable</span> and secure.</h2></div>
+        <div class="about-grid">
+          <article class="glass-card about-main reveal">
+            <div class="card-index">ABOUT_ME.yaml</div>
+            <p>DevOps Engineer with 3.5+ years of experience designing, automating and managing cloud infrastructure. My work spans infrastructure as code, CI/CD, containers, cloud networking, identity, monitoring and Linux administration.</p>
+            <div class="chips"><span>Azure</span><span>AWS</span><span>GCP</span><span>Terraform</span><span>Kubernetes</span><span>DevSecOps</span></div>
+          </article>
+          <article class="glass-card terminal reveal">
+            <div class="terminal-top"><span></span><span></span><span></span><b>krishna@cloudops:~</b></div>
+            <div class="terminal-body">
+              <p><em>$</em> terraform plan</p><p class="muted">Plan: secure · scalable · reproducible</p>
+              <p><em>$</em> kubectl get mindset</p><p class="ok">NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS<br>automation&nbsp;Ready<br>reliability&nbsp;Ready<br>security&nbsp;&nbsp;&nbsp;Ready</p>
+              <p><em>$</em> echo $FOCUS<span class="blink">_</span></p><p class="muted">Infrastructure Automation</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="skills" class="section">
-      <div class="section-heading reveal"><span>02 / SKILLS</span><h2>Technical toolkit</h2></div>
-      <div class="skills-grid">
-        <article class="skill-card reveal"><div class="icon">☁</div><h3>Cloud</h3><p>Microsoft Azure, AWS, GCP</p></article>
-        <article class="skill-card reveal"><div class="icon">⌘</div><h3>Infrastructure as Code</h3><p>Terraform (HCL), Modules, Remote Backend, State Management, Workspaces, State Locking</p></article>
-        <article class="skill-card reveal"><div class="icon">↻</div><h3>CI/CD</h3><p>Azure DevOps Pipelines, GitHub Actions, Jenkins, Build & Release Pipelines, YAML</p></article>
-        <article class="skill-card reveal"><div class="icon">⬡</div><h3>Containers</h3><p>Docker, Kubernetes, AKS, EKS, ACR, Amazon ECR</p></article>
-        <article class="skill-card reveal"><div class="icon">⇄</div><h3>Networking</h3><p>VNet, Subnets, NSG, Load Balancer, VNet Peering, VPN Gateway, DNS, Hub-and-Spoke</p></article>
-        <article class="skill-card reveal"><div class="icon">⌁</div><h3>Identity & Security</h3><p>Microsoft Entra ID, IAM, RBAC, OAuth 2.0, Managed Identities, Azure Policy, Defender for Cloud</p></article>
-        <article class="skill-card reveal"><div class="icon">▦</div><h3>Monitoring</h3><p>Prometheus, Grafana, Azure Monitor, Log Analytics, CloudWatch, CloudTrail, Application Insights</p></article>
-        <article class="skill-card reveal"><div class="icon">$_</div><h3>Automation & OS</h3><p>PowerShell, Bash, Python, Azure CLI, Linux Administration, Nginx, Apache, Git</p></article>
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">02 / TOOLCHAIN</p><h2>A multi-cloud toolkit for <span>shipping with confidence.</span></h2></div>
+        <div class="skill-grid">
+          <article class="skill-card reveal"><div class="skill-icon">☁</div><p>Cloud</p><h3>Azure · AWS · GCP</h3><span>VMs, networking, storage, App Services, SQL, Key Vault, CloudWatch and more.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon">◇</div><p>Infrastructure as Code</p><h3>Terraform</h3><span>Modules, remote backend, state management, workspaces and state locking.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon">⬡</div><p>Containers</p><h3>Docker · Kubernetes</h3><span>AKS/EKS, ACR/ECR, containerized workloads and orchestration.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon">∞</div><p>Delivery</p><h3>CI/CD</h3><span>Azure DevOps Pipelines, GitHub Actions, YAML, build and release automation.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon">⌘</div><p>Automation</p><h3>PowerShell · Bash · Python</h3><span>Provisioning, operational automation, Azure CLI and repeatable workflows.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon">◎</div><p>Observability & Security</p><h3>Monitor · Grafana · RBAC</h3><span>Prometheus, Log Analytics, Entra ID, IAM, OAuth 2.0 and DevSecOps.</span></article>
+        </div>
       </div>
     </section>
 
-    <section id="experience" class="section">
-      <div class="section-heading reveal"><span>03 / EXPERIENCE</span><h2>Professional experience</h2></div>
-      <div class="timeline">
-        <article class="timeline-item reveal">
-          <div class="time-meta"><span>Jun 2024 — Present</span><span>Noida, India</span></div>
-          <div class="time-content"><h3>DevOps Engineer</h3><h4>One Click Insurer Web Aggregator Pvt. Ltd.</h4>
-            <ul><li>Design and manage Azure and AWS infrastructure using Terraform.</li><li>Build CI/CD pipelines in Azure DevOps and GitHub Actions for Development, QA, UAT, IAT and Production.</li><li>Automate provisioning and operations with PowerShell, Bash and Python.</li><li>Manage Entra ID, RBAC, IAM, OAuth 2.0, Azure Key Vault and cloud networking.</li><li>Implement security scanning and collaborate across development, QA and operations teams.</li></ul>
-          </div>
-        </article>
-        <article class="timeline-item reveal">
-          <div class="time-meta"><span>Mar 2023 — Jun 2024</span><span>Noida, India</span></div>
-          <div class="time-content"><h3>Cloud Engineer</h3><h4>Azadpay Technology Pvt. Ltd.</h4>
-            <div class="progression">Senior Cloud Engineer <b>Oct 2023 — Jun 2024</b> · Associate Cloud Engineer <b>Mar 2023 — Oct 2023</b></div>
-            <ul><li>Provisioned and managed Azure cloud resources with Terraform across their full lifecycle.</li><li>Configured VMs, VNets, NSGs, Storage, Load Balancers, App Services, Azure SQL and Key Vault.</li><li>Designed VNet Peering and Hub-and-Spoke connectivity.</li><li>Applied RBAC, Entra ID, OAuth 2.0, governance, tagging and cloud security practices.</li><li>Automated administration with Terraform, Azure CLI, PowerShell and Bash; maintained SOPs and technical documentation.</li></ul>
-          </div>
-        </article>
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">03 / EXPERIENCE</p><h2>Building production infrastructure, <span>one deployment at a time.</span></h2></div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">JUN 2024 — PRESENT</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-card"><div class="role-head"><div><p>One Click Insurer Web Aggregator Pvt. Ltd.</p><h3>DevOps Engineer</h3></div><span>Noida, India</span></div><p>Cloud architecture reviews, Terraform-based Azure/AWS infrastructure, CI/CD across Dev/QA/UAT/IAT/Production, scripting, identity & access, security scanning and cloud networking.</p><div class="chips mini"><span>Terraform</span><span>Azure DevOps</span><span>GitHub Actions</span><span>Azure</span><span>AWS</span></div></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">MAR 2023 — JUN 2024</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-card"><div class="role-head"><div><p>Azadpay Technology Pvt. Ltd.</p><h3>Cloud Engineer</h3></div><span>Noida, India</span></div><p>Managed the Azure resource lifecycle with Terraform, networking and hub-spoke architecture, RBAC/Entra ID, OAuth 2.0, subscription governance and infrastructure automation.</p><div class="progression"><span>Associate Cloud Engineer</span><i>→</i><span>Senior Cloud Engineer</span></div></div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="projects" class="section">
-      <div class="section-heading reveal"><span>04 / PROJECTS</span><h2>Selected DevOps projects</h2></div>
-      <div class="projects-grid">
-        <article class="project reveal"><span class="project-no">01</span><h3>Cloud Infrastructure Automation</h3><p>Automated Azure infrastructure provisioning using Terraform and managed VNets, NSGs, App Services, Azure SQL Database and Azure Key Vault.</p><div class="tech">Azure · Terraform · Azure CLI · PowerShell · Git</div></article>
-        <article class="project reveal"><span class="project-no">02</span><h3>CI/CD Pipeline Automation</h3><p>Built automated build, testing and deployment pipelines using Azure DevOps and GitHub Actions with YAML-based workflows and scripting.</p><div class="tech">Azure DevOps · GitHub Actions · YAML · Git · Bash</div></article>
-        <article class="project reveal"><span class="project-no">03</span><h3>Docker & Kubernetes Containerization</h3><p>Containerized applications with Docker, managed images in ACR/ECR, and deployed containerized workloads on AKS and EKS.</p><div class="tech">Docker · Kubernetes · AKS · EKS · ACR · ECR</div></article>
-        <article class="project reveal"><span class="project-no">04</span><h3>Secure Cloud Networking & Identity</h3><p>Configured secure Azure networking and access control using VNet, NSGs, peering, Hub-and-Spoke, Entra ID, RBAC, OAuth 2.0 and Key Vault.</p><div class="tech">Azure · Entra ID · RBAC · OAuth 2.0 · Key Vault</div></article>
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">04 / SELECTED PROJECTS</p><h2>Systems that turn <span>manual work into code.</span></h2></div>
+        <div class="projects-grid">
+          <article class="project-card reveal"><div class="project-visual terraform"><div class="cube c1"></div><div class="cube c2"></div><div class="cube c3"></div><div class="network-line l1"></div><div class="network-line l2"></div></div><div class="project-body"><p>01 · INFRASTRUCTURE</p><h3>Cloud Infrastructure Automation</h3><span>Automated Azure provisioning with Terraform and managed VNets, NSGs, App Services, Azure SQL and Key Vault.</span><div class="chips mini"><span>Azure</span><span>Terraform</span><span>PowerShell</span><span>Git</span></div></div></article>
+          <article class="project-card reveal"><div class="project-visual pipeline"><div class="pipe-node">CODE</div><div class="pipe-arrow">→</div><div class="pipe-node">BUILD</div><div class="pipe-arrow">→</div><div class="pipe-node active">SHIP</div></div><div class="project-body"><p>02 · DELIVERY</p><h3>CI/CD Pipeline Automation</h3><span>Built automated build, test and deployment workflows using Azure DevOps, GitHub Actions, YAML and scripting.</span><div class="chips mini"><span>Azure DevOps</span><span>GitHub Actions</span><span>YAML</span></div></div></article>
+          <article class="project-card reveal"><div class="project-visual kube"><div class="kube-ring"></div><div class="kube-core">K8s</div><div class="pod p1"></div><div class="pod p2"></div><div class="pod p3"></div><div class="pod p4"></div></div><div class="project-body"><p>03 · CONTAINERS</p><h3>Docker & Kubernetes</h3><span>Containerized applications and deployed workloads on AKS/EKS with managed container registries.</span><div class="chips mini"><span>Docker</span><span>Kubernetes</span><span>AKS</span><span>EKS</span></div></div></article>
+          <article class="project-card reveal"><div class="project-visual security"><div class="shield">◇</div><span class="orbit o1"></span><span class="orbit o2"></span><span class="orbit o3"></span></div><div class="project-body"><p>04 · SECURITY</p><h3>Cloud Networking & Identity</h3><span>Built secure Azure networking and identity using Entra ID, RBAC, OAuth 2.0 and Key Vault.</span><div class="chips mini"><span>Entra ID</span><span>RBAC</span><span>OAuth 2.0</span><span>Key Vault</span></div></div></article>
+        </div>
       </div>
     </section>
 
-    <section id="education" class="section two-col">
-      <div class="section-heading reveal"><span>05 / EDUCATION</span><h2>Education</h2></div>
-      <div class="edu-card reveal"><span>2019 — 2023</span><h3>Bachelor of Technology in Computer Science (B.Tech-CS)</h3><h4>ISBM University</h4><p>Chhattisgarh, India</p></div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-      <div class="contact-card reveal">
-        <span>06 / CONTACT</span><h2>Let’s build reliable infrastructure.</h2><p>Interested in DevOps, Cloud Engineering, Infrastructure Automation or platform reliability opportunities.</p>
-        <div class="contact-actions"><a class="btn primary" href="mailto:krishna.sharma.cloud.ops@gmail.com">Send Email</a><a class="btn ghost" href="https://www.linkedin.com/in/krishna-sharma-42110229" target="_blank" rel="noreferrer">LinkedIn</a><a class="btn ghost" href="https://github.com/krishnasharma-cloudops" target="_blank" rel="noreferrer">GitHub</a></div>
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Ready to build infrastructure<br><span>that scales?</span></h2>
+        <p>Connect with me for DevOps, cloud infrastructure and automation opportunities.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:krishna.sharma.cloud.ops@gmail.com">krishna.sharma.cloud.ops@gmail.com <span>↗</span></a>
+          <a class="btn btn-ghost" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/krishna-sharma-42110229">LinkedIn</a>
+          <a class="btn btn-ghost" target="_blank" rel="noreferrer" href="https://github.com/krishnasharma-cloudops">GitHub</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer><p>© <span id="year"></span> Krishna Sharma. Built as a modern DevOps portfolio.</p><a href="#home">Back to top ↑</a></footer>
+  <footer><div class="container"><span>© <b id="year"></b> Krishna Sharma</span><span>Designed for cloud. Built for the web.</span></div></footer>
+
+  <div id="resumeModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel">
+      <div class="modal-top"><div><p class="eyebrow">RESUME / PDF</p><strong>Krishna Sharma — DevOps Engineer</strong></div><div class="modal-actions"><a class="btn btn-primary small" href="Krishna-Sharma-Resume.pdf" download>Download PDF ↓</a><button class="modal-close" aria-label="Close resume">×</button></div></div>
+      <iframe src="Krishna-Sharma-Resume.pdf#view=FitH" title="Krishna Sharma Resume"></iframe>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
