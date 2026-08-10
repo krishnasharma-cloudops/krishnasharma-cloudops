@@ -9,6 +9,10 @@
   <meta property="og:description" content="Advanced DevSecOps portfolio focused on multi-cloud automation, Terraform, Kubernetes, secure CI/CD, LLM and MCP." />
   <meta property="og:type" content="website" />
   <meta name="color-scheme" content="dark" />
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="Krishna Sharma" />
+  <meta name="application-name" content="Krishna DevSecOps Portfolio" />
+  <link rel="manifest" href="./site.webmanifest" />
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
   <title>Krishna Sharma | DevSecOps Engineer — Cloud & AI Automation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,11 +38,21 @@
   <div class="cursor-glow"></div>
   <div class="page-progress" aria-hidden="true"><span></span></div>
 
+  <div class="visual-toolbar" aria-label="Visual appearance controls">
+    <button class="visual-toggle" id="visualToggle" aria-expanded="false" aria-controls="visualMenu"><span class="visual-dot"></span><b>Visual</b></button>
+    <div class="visual-menu" id="visualMenu" hidden>
+      <button class="visual-option active" data-visual="aurora"><i></i><span><b>Aurora</b><small>Cyan · Violet</small></span></button>
+      <button class="visual-option" data-visual="quantum"><i></i><span><b>Quantum</b><small>Blue · Magenta</small></span></button>
+      <button class="visual-option" data-visual="matrix"><i></i><span><b>Matrix</b><small>Emerald · Cyan</small></span></button>
+    </div>
+  </div>
+
+
   <header class="nav-wrap">
     <nav class="nav container">
       <a class="brand" href="#home" aria-label="Krishna Sharma home"><span class="brand-box tech-sigil mini" aria-hidden="true"><i></i><i></i><i></i><b>∆</b></span><span>Krishna Sharma</span></a>
       <div class="nav-links">
-        <a href="#about">About</a><a href="#synapse-forge">3D Forge</a><a href="#neural-fabric">Neural Fabric</a><a href="#ai-core">AI Core</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a>
+        <a href="#about">About</a><a href="#cloud-lab">3D Cloud</a><a href="#nexus">3D Nexus</a><a href="#synapse-forge">3D Forge</a><a href="#neural-fabric">Neural Fabric</a><a href="#ai-core">AI Core</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a>
       </div>
       <button class="btn btn-ghost small resume-trigger">Resume <span>↗</span></button>
       <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
@@ -93,7 +107,7 @@
           </div>
           <div class="scene-caption reveal" aria-hidden="true"><span class="live-dot"></span><b>INTERACTIVE 3D INFRASTRUCTURE</b><small>Move cursor · explore topology</small></div>
           <div class="hero-hud reveal">
-            <div class="hud-top"><span><i></i> CLOUD FABRIC ONLINE</span><b>v13.0</b></div>
+            <div class="hud-top"><span><i></i> CLOUD FABRIC ONLINE</span><b>v15.0</b></div>
             <div class="hud-grid">
               <div><small>REGIONS</small><strong>03</strong></div>
               <div><small>IaC</small><strong>100%</strong></div>
@@ -448,6 +462,45 @@
       </div>
     </section>
 
+
+    <section class="section nexus-section" id="nexus">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 / QUANTUM CLOUD NEXUS</p>
+          <h2>A dedicated <span>3D DevSecOps model</span> with AI at the core.</h2>
+        </div>
+        <div class="nexus-shell reveal">
+          <div class="nexus-stage">
+            <canvas id="nexusCanvas" aria-label="Interactive 3D DevSecOps and AI cloud nexus model"></canvas>
+            <div class="nexus-corner nc-a"><small>RENDER</small><b>WEBGL</b></div>
+            <div class="nexus-corner nc-b"><small>CORE</small><b id="nexusCoreLabel">DEVSECOPS</b></div>
+            <div class="nexus-reticle" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div class="nexus-tip">DRAG TO ORBIT · SCROLL TO ZOOM · SELECT A SYSTEM LAYER</div>
+          </div>
+          <div class="nexus-panel">
+            <span class="topology-kicker">PROCEDURAL 3D MODEL · ZERO BUILD</span>
+            <h3>Cloud, security, AI and automation — one living system.</h3>
+            <p>The model visualizes a secure delivery platform as a central orchestration reactor surrounded by cloud, Kubernetes, Terraform, security, LLM, MCP and observability satellites. It is generated entirely in Three.js, so there are no large model downloads.</p>
+            <div class="nexus-modes" role="group" aria-label="3D model focus">
+              <button class="nexus-mode active" data-nexus="devsecops"><span>01</span><b>DevSecOps</b><small>Security mesh</small></button>
+              <button class="nexus-mode" data-nexus="cloud"><span>02</span><b>Multi-Cloud</b><small>Azure · AWS · GCP</small></button>
+              <button class="nexus-mode" data-nexus="ai"><span>03</span><b>AI Core</b><small>LLM · MCP · Antigravity</small></button>
+              <button class="nexus-mode" data-nexus="delivery"><span>04</span><b>Delivery</b><small>Terraform · CI/CD · K8s</small></button>
+            </div>
+            <div class="nexus-metrics">
+              <div><small>MODEL NODES</small><strong>08</strong><span>interconnected systems</span></div>
+              <div><small>TRAFFIC</small><strong id="nexusTraffic">LIVE</strong><span>animated data flow</span></div>
+              <div><small>SECURITY</small><strong id="nexusSecurity">PASS</strong><span>policy perimeter</span></div>
+            </div>
+            <div class="nexus-actions">
+              <button class="btn btn-primary small" id="nexusFocus">Focus core <span>◎</span></button>
+              <button class="btn btn-ghost small" id="nexusRotate">Auto rotate: ON</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="skills" class="section">
       <div class="container">
         <div class="section-heading reveal"><p class="eyebrow">02 / TOOLCHAIN</p><h2>A multi-cloud toolkit for <span>shipping with confidence.</span></h2></div>
@@ -521,7 +574,7 @@
     </section>
   </main>
 
-  <footer><div class="container"><span>© <b id="year"></b> Krishna Sharma</span><span>V14 · Multi-Region 3D Cloud World · Krishna AI Copilot · GitHub Pages optimized.</span></div></footer>
+  <footer><div class="container"><span>© <b id="year"></b> Krishna Sharma</span><span>V15 · Quantum Cloud Nexus · Multi-Region 3D · Krishna AI Copilot · GitHub Pages optimized.</span></div></footer>
 
   <button class="portfolio-bot-toggle" id="botToggle" aria-label="Open Krishna AI assistant"><span class="bot-orb"><i></i><b>AI</b></span><em>Ask Krishna AI</em></button>
   <aside class="portfolio-bot" id="portfolioBot" aria-hidden="true">
@@ -552,6 +605,23 @@
     <div class="bot-foot">No external AI API is required. Answers are grounded in the portfolio/resume content.</div>
   </aside>
 
+
+  <div class="command-palette" id="commandPalette" aria-hidden="true">
+    <div class="command-backdrop"></div>
+    <div class="command-panel" role="dialog" aria-modal="true" aria-label="Portfolio command palette">
+      <div class="command-search"><span>⌘</span><input id="commandInput" autocomplete="off" placeholder="Jump to a section or ask Krishna AI…" aria-label="Command search"><kbd>ESC</kbd></div>
+      <div class="command-list" id="commandList">
+        <button data-command-target="home"><i>01</i><span><b>Home / Hero</b><small>3D infrastructure overview</small></span><em>↗</em></button>
+        <button data-command-target="cloud-lab"><i>02</i><span><b>Multi-Region 3D Cloud</b><small>Explore five cloud regions</small></span><em>↗</em></button>
+        <button data-command-target="nexus"><i>03</i><span><b>Quantum Cloud Nexus</b><small>Dedicated 3D DevSecOps model</small></span><em>↗</em></button>
+        <button data-command-target="skills"><i>04</i><span><b>Skills</b><small>Cloud · IaC · Security · AI</small></span><em>↗</em></button>
+        <button data-command-target="projects"><i>05</i><span><b>Projects</b><small>Terraform · CI/CD · K8s · AI</small></span><em>↗</em></button>
+        <button data-command-ai="Give me a 30 second recruiter summary"><i>AI</i><span><b>Ask Krishna AI</b><small>Generate recruiter summary</small></span><em>→</em></button>
+      </div>
+      <div class="command-foot"><span><kbd>Ctrl</kbd> + <kbd>K</kbd> to open anywhere</span><span>GitHub Pages · no backend</span></div>
+    </div>
+  </div>
+
   <div id="resumeModal" class="modal" aria-hidden="true">
     <div class="modal-backdrop"></div>
     <div class="modal-panel">
@@ -565,6 +635,8 @@
   <script defer src="./devsecops-3d-module.js"></script>
   <script defer src="./forge-3d-module.js"></script>
   <script defer src="./portfolio-chatbot.js"></script>
+  <script defer src="./nexus-3d-module.js"></script>
+  <script defer src="./github-pages-module.js"></script>
   <script defer src="./animation-module.js"></script>
 </body>
 </html>

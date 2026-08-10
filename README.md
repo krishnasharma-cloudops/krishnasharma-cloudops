@@ -1,22 +1,28 @@
-# Krishna Sharma — Portfolio V14
+# Krishna Sharma — Portfolio V15
 
-GitHub Pages-ready portfolio focused on DevSecOps, Cloud & AI Automation.
+Advanced **GitHub Pages-ready** DevSecOps + Cloud + AI portfolio.
 
-## V14 highlights
-- Larger and clearer interactive 3D cloud platform
-- Five explorable regions: India, US East, Europe, Asia Pacific, Global Mesh
-- Region focus camera, live inter-region traffic, Kubernetes pods and server clusters
-- Architecture / Pipeline / Security scene modes
-- Synapse Forge procedural 3D DevSecOps + AI model
-- Advanced local **Krishna AI Copilot**
-- Resume-grounded answers for DevSecOps, LLM, MCP, Antigravity, Terraform, Kubernetes, CI/CD, experience and projects
-- Recruiter summary + interview-prep prompts
-- No backend, no npm, no build step
-- `.nojekyll` and relative paths for GitHub Pages
+## V15 upgrades
+- Dedicated Quantum Cloud Nexus procedural Three.js 3D model
+- Multi-region interactive 3D cloud lab: India, US East, Europe, APAC, Global Mesh
+- 3D focus modes: DevSecOps, Multi-Cloud, AI Core, Delivery
+- Aurora / Quantum / Matrix visual color modes
+- Ctrl/Cmd + K command palette
+- Advanced local Krishna AI Copilot
+- Resume modal + downloadable PDF
+- Responsive animation + reduced-motion support
+- `404.html`, `.nojekyll`, `site.webmanifest`, relative paths
+- No npm / no build command / no backend
 
-## Deploy
-Upload the contents of this folder to the root of your GitHub repository.
+## GitHub Pages deployment
+1. Extract the ZIP.
+2. Upload the files inside `krishna-portfolio-v15/` to the repository root.
+3. GitHub → Settings → Pages.
+4. Select **Deploy from a branch**.
+5. Branch `main`, folder `/(root)`.
+6. Save.
 
-GitHub → Settings → Pages → Deploy from a branch → `main` → `/(root)`.
+Project Pages paths such as `https://USERNAME.github.io/REPOSITORY/` work because site assets use relative URLs.
 
-The 3D scenes use Three.js from a public CDN, so internet access is required when viewing the deployed page.
+## Note
+Three.js is loaded from cdnjs. No Node.js, React, database, server, or AI API key is required.
