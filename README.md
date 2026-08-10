@@ -1,23 +1,22 @@
-# Krishna Sharma — DevOps Portfolio
+# Krishna Sharma — Portfolio V14
 
-Static portfolio optimized for GitHub Pages. No build step is required.
+GitHub Pages-ready portfolio focused on DevSecOps, Cloud & AI Automation.
 
-## Deploy on GitHub Pages
-1. Create a GitHub repository (for example `portfolio`).
-2. Upload all files from this folder to the repository root.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch **main** and folder **/(root)**, then save.
-6. Open the Pages URL shown by GitHub after deployment.
+## V14 highlights
+- Larger and clearer interactive 3D cloud platform
+- Five explorable regions: India, US East, Europe, Asia Pacific, Global Mesh
+- Region focus camera, live inter-region traffic, Kubernetes pods and server clusters
+- Architecture / Pipeline / Security scene modes
+- Synapse Forge procedural 3D DevSecOps + AI model
+- Advanced local **Krishna AI Copilot**
+- Resume-grounded answers for DevSecOps, LLM, MCP, Antigravity, Terraform, Kubernetes, CI/CD, experience and projects
+- Recruiter summary + interview-prep prompts
+- No backend, no npm, no build step
+- `.nojekyll` and relative paths for GitHub Pages
 
-The site uses only relative local paths for the resume/CSS/JS, so it also works when hosted under a project path such as `username.github.io/portfolio/`.
+## Deploy
+Upload the contents of this folder to the root of your GitHub repository.
 
-## Files
-- `index.html` — main site
-- `style.css` — layout, graphics and animations
-- `script.js` — interaction, Three.js scene and motion
-- `Krishna-Sharma-Resume.pdf` — resume shown in the modal
-- `.nojekyll` — keeps GitHub Pages from applying Jekyll processing
+GitHub → Settings → Pages → Deploy from a branch → `main` → `/(root)`.
 
-## Notes
-Three.js and Google Fonts are loaded from public CDNs, so those effects need an internet connection. The page itself remains static and GitHub Pages compatible.
+The 3D scenes use Three.js from a public CDN, so internet access is required when viewing the deployed page.

@@ -4,24 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#050816" />
-  <meta name="description" content="Krishna Sharma — DevOps Engineer portfolio. Azure, AWS, GCP, Terraform, Docker, Kubernetes, CI/CD and infrastructure automation." />
-  <meta property="og:title" content="Krishna Sharma | DevOps Engineer" />
-  <meta property="og:description" content="Multi-cloud DevOps portfolio focused on Terraform, Kubernetes, CI/CD and infrastructure automation." />
+  <meta name="description" content="Krishna Sharma — DevSecOps Engineer portfolio. Cloud & AI Automation across Azure, AWS, GCP, Terraform, Kubernetes, CI/CD, LLM and MCP." />
+  <meta property="og:title" content="Krishna Sharma | DevSecOps Engineer" />
+  <meta property="og:description" content="Advanced DevSecOps portfolio focused on multi-cloud automation, Terraform, Kubernetes, secure CI/CD, LLM and MCP." />
   <meta property="og:type" content="website" />
   <meta name="color-scheme" content="dark" />
-  <title>Krishna Sharma | DevOps Engineer</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <title>Krishna Sharma | DevSecOps Engineer — Cloud & AI Automation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 </head>
 <body>
   <div id="loader" class="loader">
     <div class="loader-grid"></div>
     <div class="loader-content">
-      <div class="loader-mark"><span>KS</span></div>
-      <p class="eyebrow">CLOUD · AUTOMATION · DELIVERY</p>
-      <h1>Building reliable infrastructure<br><span>from code to cloud.</span></h1>
+      <div class="loader-mark tech-sigil" aria-hidden="true"><i></i><i></i><i></i><b>∆</b></div>
+      <p class="eyebrow">DEVSECOPS · CLOUD · AI AUTOMATION</p>
+      <h1>Building secure intelligent infrastructure<br><span>from code to cloud to AI.</span></h1>
       <button id="enterBtn" class="btn btn-primary">Enter Portfolio <span>↗</span></button>
     </div>
   </div>
@@ -34,9 +36,9 @@
 
   <header class="nav-wrap">
     <nav class="nav container">
-      <a class="brand" href="#home" aria-label="Krishna Sharma home"><span class="brand-box">KS</span><span>Krishna Sharma</span></a>
+      <a class="brand" href="#home" aria-label="Krishna Sharma home"><span class="brand-box tech-sigil mini" aria-hidden="true"><i></i><i></i><i></i><b>∆</b></span><span>Krishna Sharma</span></a>
       <div class="nav-links">
-        <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a>
+        <a href="#about">About</a><a href="#synapse-forge">3D Forge</a><a href="#neural-fabric">Neural Fabric</a><a href="#ai-core">AI Core</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a>
       </div>
       <button class="btn btn-ghost small resume-trigger">Resume <span>↗</span></button>
       <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
@@ -49,13 +51,13 @@
       <div class="hero-glow"></div>
       <div class="hero-orbit-ui" aria-hidden="true">
         <span class="float-chip fc1">AZURE</span><span class="float-chip fc2">AWS</span><span class="float-chip fc3">GCP</span>
-        <span class="float-chip fc4">TERRAFORM</span><span class="float-chip fc5">K8s</span><span class="float-chip fc6">CI/CD</span>
+        <span class="float-chip fc4">ANTIGRAVITY</span><span class="float-chip fc5">LLM</span><span class="float-chip fc6">MCP</span>
       </div>
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <div class="status"><i></i> DevOps Engineer · Noida, India</div>
-          <h1>Engineering the<br><span class="gradient-text">cloud behind</span><br>great products.</h1>
-          <p>I design, automate and operate secure, scalable cloud infrastructure across Azure, AWS and GCP — with <span id="typeText">Terraform</span>, Kubernetes and modern CI/CD.</p>
+          <div class="status"><i></i> DevSecOps Engineer · Cloud & AI Automation · Noida</div>
+          <h1>Engineering the<br><span class="gradient-text">secure cloud + AI</span><br>behind great products.</h1>
+          <p>I design, automate and secure multi-cloud infrastructure across Azure, AWS and GCP — combining <span id="typeText">Terraform</span>, Kubernetes, DevSecOps and AI-assisted automation with LLM + MCP workflows.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projects">Explore Work <span>↓</span></a>
             <button class="btn btn-ghost resume-trigger">View Resume <span>↗</span></button>
@@ -63,17 +65,35 @@
           <div class="hero-meta">
             <div><strong>3.5+</strong><span>Years experience</span></div>
             <div><strong>3</strong><span>Cloud platforms</span></div>
-            <div><strong>IaC</strong><span>Automation first</span></div>
+            <div><strong>AI+</strong><span>LLM · MCP automation</span></div>
           </div>
         </div>
         <div class="hero-spacer" aria-hidden="true">
-          <div class="cloud-command reveal">
-            <div class="cc-top"><span><i></i> LIVE CLOUD CONTROL</span><b>99.99%</b></div>
-            <div class="cc-orbit"><span class="cc-core">KS</span><span class="cc-node n1">AZ</span><span class="cc-node n2">AWS</span><span class="cc-node n3">GCP</span><span class="cc-node n4">K8s</span><span class="cc-node n5">TF</span><span class="cc-ring ring1"></span><span class="cc-ring ring2"></span></div>
-            <div class="cc-metrics"><div><small>DEPLOY</small><strong>READY</strong></div><div><small>SECURITY</small><strong>PASS</strong></div><div><small>LATENCY</small><strong>42ms</strong></div></div>
+          <div class="cloud-command hero-machine reveal" aria-hidden="true">
+            <div class="cc-top"><span><i></i> DEVOPS CONTROL PLANE</span><b>LIVE</b></div>
+            <div class="machine-stage">
+              <div class="machine-grid"></div>
+              <svg class="machine-links" viewBox="0 0 430 280" preserveAspectRatio="none">
+                <path d="M215 136 C165 88 116 74 76 72"/><path d="M215 136 C270 88 320 76 356 78"/>
+                <path d="M215 136 C162 185 120 208 82 215"/><path d="M215 136 C271 183 315 207 354 216"/>
+              </svg>
+              <div class="machine-core"><div class="core-cloud tech-glyph"><span></span><i></i><b>∞</b></div><b>CONTROL</b><small>CODE → CLOUD</small><span class="core-pulse p1"></span><span class="core-pulse p2"></span></div>
+              <div class="machine-node mn-azure"><i></i><b>AZURE</b><small>VNet · AKS</small></div>
+              <div class="machine-node mn-aws"><i></i><b>AWS</b><small>EKS · ECR</small></div>
+              <div class="machine-node mn-tf"><i></i><b>TERRAFORM</b><small>IaC</small></div>
+              <div class="machine-node mn-k8s"><i></i><b>K8s</b><small>ORCHESTRATE</small></div>
+              <span class="data-packet dp1"></span><span class="data-packet dp2"></span><span class="data-packet dp3"></span>
+            </div>
+            <div class="rack-strip">
+              <div class="rack-unit"><span><i></i><i></i><i></i></span><b>API-01</b><em>UP</em></div>
+              <div class="rack-unit"><span><i></i><i></i><i></i></span><b>WORKER-02</b><em>UP</em></div>
+              <div class="rack-unit"><span><i></i><i></i><i></i></span><b>OBSERVE</b><em>SYNC</em></div>
+            </div>
+            <div class="cc-metrics"><div><small>DEPLOY</small><strong>READY</strong></div><div><small>SECURITY</small><strong>PASS</strong></div><div><small>LATENCY</small><strong>&lt;50ms</strong></div></div>
           </div>
+          <div class="scene-caption reveal" aria-hidden="true"><span class="live-dot"></span><b>INTERACTIVE 3D INFRASTRUCTURE</b><small>Move cursor · explore topology</small></div>
           <div class="hero-hud reveal">
-            <div class="hud-top"><span><i></i> CLOUD FABRIC ONLINE</span><b>v3.0</b></div>
+            <div class="hud-top"><span><i></i> CLOUD FABRIC ONLINE</span><b>v13.0</b></div>
             <div class="hud-grid">
               <div><small>REGIONS</small><strong>03</strong></div>
               <div><small>IaC</small><strong>100%</strong></div>
@@ -88,8 +108,8 @@
 
     <section class="tech-marquee" aria-label="DevOps technology stack">
       <div class="marquee-track">
-        <span>AZURE</span><i>✦</i><span>AWS</span><i>✦</i><span>GCP</span><i>✦</i><span>TERRAFORM</span><i>✦</i><span>DOCKER</span><i>✦</i><span>KUBERNETES</span><i>✦</i><span>GITHUB ACTIONS</span><i>✦</i><span>AZURE DEVOPS</span><i>✦</i>
-        <span>AZURE</span><i>✦</i><span>AWS</span><i>✦</i><span>GCP</span><i>✦</i><span>TERRAFORM</span><i>✦</i><span>DOCKER</span><i>✦</i><span>KUBERNETES</span><i>✦</i><span>GITHUB ACTIONS</span><i>✦</i><span>AZURE DEVOPS</span><i>✦</i>
+        <span>AZURE</span><i>✦</i><span>AWS</span><i>✦</i><span>GCP</span><i>✦</i><span>TERRAFORM</span><i>✦</i><span>KUBERNETES</span><i>✦</i><span>DEVSECOPS</span><i>✦</i><span>ANTIGRAVITY</span><i>✦</i><span>LLM</span><i>✦</i><span>MCP</span><i>✦</i>
+        <span>AZURE</span><i>✦</i><span>AWS</span><i>✦</i><span>GCP</span><i>✦</i><span>TERRAFORM</span><i>✦</i><span>KUBERNETES</span><i>✦</i><span>DEVSECOPS</span><i>✦</i><span>ANTIGRAVITY</span><i>✦</i><span>LLM</span><i>✦</i><span>MCP</span><i>✦</i>
       </div>
     </section>
 
@@ -155,8 +175,8 @@
         <div class="about-grid">
           <article class="glass-card about-main reveal">
             <div class="card-index">ABOUT_ME.yaml</div>
-            <p>DevOps Engineer with 3.5+ years of experience designing, automating and managing cloud infrastructure. My work spans infrastructure as code, CI/CD, containers, cloud networking, identity, monitoring and Linux administration.</p>
-            <div class="chips"><span>Azure</span><span>AWS</span><span>GCP</span><span>Terraform</span><span>Kubernetes</span><span>DevSecOps</span></div>
+            <p>DevSecOps Engineer with 3.5+ years of experience designing, automating, securing and managing multi-cloud infrastructure. My work spans IaC, secure CI/CD, containers, cloud security, monitoring and AI-assisted DevOps workflows using LLMs and MCP.</p>
+            <div class="chips"><span>Azure</span><span>AWS</span><span>GCP</span><span>Terraform</span><span>Kubernetes</span><span>DevSecOps</span><span>LLM</span><span>MCP</span></div>
           </article>
           <article class="glass-card terminal reveal">
             <div class="terminal-top"><span></span><span></span><span></span><b>krishna@cloudops:~</b></div>
@@ -170,28 +190,289 @@
       </div>
     </section>
 
+
+    <section class="section cloud-lab-section" id="cloud-lab">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">02 / IMMERSIVE 3D CLOUD LAB</p><h2>A cloud platform you can <span>explore in 3D.</span></h2></div>
+        <div class="cloud-lab-shell reveal">
+          <div class="lab-copy">
+            <span class="topology-kicker">WEBGL · LIVE SCENE</span>
+            <h3>Explore a living multi-cloud control plane.</h3>
+            <p>A clearer, larger procedural WebGL cloud world with five explorable regions, server towers, Kubernetes pods, inter-region traffic, security rings and cinematic camera focus — built without heavy model files or a backend, so it stays GitHub Pages friendly.</p>
+            <div class="lab-legend">
+              <span><i class="lg-cyan"></i>Compute nodes</span><span><i class="lg-purple"></i>Cloud fabric</span><span><i class="lg-green"></i>Healthy services</span>
+            </div>
+            <div class="lab-mode-switch" role="group" aria-label="3D scene mode">
+              <button class="lab-mode active" data-lab-mode="architecture">Architecture</button>
+              <button class="lab-mode" data-lab-mode="pipeline">Pipeline</button>
+              <button class="lab-mode" data-lab-mode="security">Security</button>
+            </div>
+            <div class="region-control">
+              <small>EXPLORE REGION</small>
+              <div class="region-pills" role="group" aria-label="Cloud region">
+                <button class="region-pill active" data-region="india">India</button>
+                <button class="region-pill" data-region="us">US East</button>
+                <button class="region-pill" data-region="europe">Europe</button>
+                <button class="region-pill" data-region="asia">Asia Pacific</button>
+                <button class="region-pill" data-region="global">Global Mesh</button>
+              </div>
+            </div>
+            <div class="lab-actions">
+              <button class="btn btn-ghost small" id="labRotate">Auto rotate: ON</button>
+              <button class="btn btn-ghost small" id="labReset">Reset view</button>
+              <button class="btn btn-ghost small" id="labFocus">Focus region</button>
+            </div>
+          </div>
+          <div class="lab-stage-wrap">
+            <div class="lab-hud top-left"><small>ACTIVE REGION</small><strong id="labRegion">IN-CENTRAL-1</strong></div>
+            <div class="lab-hud top-right"><small>STATUS</small><strong><i></i> HEALTHY</strong></div>
+            <div class="lab-telemetry" aria-hidden="true">
+              <span><small>REPLICAS</small><b id="labReplicas">24</b></span><span><small>LATENCY</small><b id="labLatency">42ms</b></span><span><small>REGIONS</small><b id="labRegions">5</b></span><span><small>MODE</small><b id="labModeLabel">ARCH</b></span>
+            </div>
+            <div class="lab-scan" aria-hidden="true"></div>
+            <div class="region-overlay" id="regionOverlay" aria-hidden="true">
+              <span class="region-tag rt-india">INDIA · PRIMARY</span>
+              <span class="region-tag rt-us">US EAST · DR</span>
+              <span class="region-tag rt-eu">EUROPE · EDGE</span>
+              <span class="region-tag rt-apac">APAC · EDGE</span>
+              <span class="region-tag rt-global">GLOBAL MESH</span>
+            </div>
+            <canvas id="cloudLabCanvas" aria-label="Interactive multi-region 3D DevSecOps cloud platform"></canvas>
+            <div class="lab-floor-labels" aria-hidden="true"><span>INDIA</span><span>US-EAST</span><span>EUROPE</span><span>APAC</span><span>GLOBAL</span></div>
+            <div class="lab-tip">DRAG TO ORBIT · SCROLL TO ZOOM · SELECT REGION · CLICK 3D NODES</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section topology-section" id="topology">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">02 / 3D DEPLOYMENT TOPOLOGY</p><h2>Infrastructure that <span>moves like a living system.</span></h2></div>
+        <div class="topology-card reveal">
+          <div class="topology-copy">
+            <span class="topology-kicker">LIVE SIMULATION</span>
+            <h3>Commit → Pipeline → Terraform → Kubernetes → Observe</h3>
+            <p>A cinematic visual layer for the delivery workflow, built entirely with browser-native HTML/CSS/Three.js so it remains GitHub Pages friendly.</p>
+            <div class="topology-stats"><span><b>03</b><small>Clouds</small></span><span><b>06</b><small>Nodes</small></span><span><b>24</b><small>Pods</small></span></div>
+          </div>
+          <div class="topology-graphic" aria-hidden="true">
+            <div class="tg-core"><span>∆∞</span><small>CONTROL</small></div>
+            <div class="tg-orbit orbit-a"></div><div class="tg-orbit orbit-b"></div><div class="tg-orbit orbit-c"></div>
+            <div class="tg-node n1"><i></i><b>AZURE</b></div><div class="tg-node n2"><i></i><b>AWS</b></div><div class="tg-node n3"><i></i><b>GCP</b></div>
+            <div class="tg-node n4"><i></i><b>TF</b></div><div class="tg-node n5"><i></i><b>K8s</b></div><div class="tg-node n6"><i></i><b>OBS</b></div>
+            <span class="tg-packet p1"></span><span class="tg-packet p2"></span><span class="tg-packet p3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section observability-section" id="observability">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">02 / OBSERVABILITY LAB</p><h2>See the platform <span>before users feel it.</span></h2></div>
+        <div class="obs-dashboard reveal">
+          <div class="obs-top"><span><i></i> LIVE TELEMETRY</span><div><b>Azure Monitor</b><b>Prometheus</b><b>Grafana</b></div></div>
+          <div class="obs-layout">
+            <article class="metric-panel graph-panel">
+              <div class="panel-head"><span>REQUEST HEALTH</span><strong>99.99%</strong></div>
+              <div class="graph-wrap">
+                <div class="graph-grid"></div>
+                <svg viewBox="0 0 620 210" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="areaFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#63e6ff" stop-opacity=".28"/><stop offset="1" stop-color="#63e6ff" stop-opacity="0"/></linearGradient></defs><path class="area" d="M0 165 C65 150 95 173 145 130 S235 112 270 120 S345 60 390 91 S463 105 500 67 S570 45 620 53 L620 210 L0 210 Z"/><path class="line" d="M0 165 C65 150 95 173 145 130 S235 112 270 120 S345 60 390 91 S463 105 500 67 S570 45 620 53"/></svg>
+                <span class="graph-scanner"></span>
+              </div>
+              <div class="graph-legend"><span><i></i> Requests</span><span>Last 60 min</span></div>
+            </article>
+            <article class="metric-panel gauge-panel">
+              <div class="panel-head"><span>CLUSTER LOAD</span><strong>OPTIMAL</strong></div>
+              <div class="gauge"><div class="gauge-inner"><b>68%</b><small>UTILIZATION</small></div></div>
+              <div class="mini-metrics"><div><span>Pods</span><b>24/32</b></div><div><span>Nodes</span><b>06</b></div><div><span>Errors</span><b>0.02%</b></div></div>
+            </article>
+            <article class="metric-panel deploy-panel">
+              <div class="panel-head"><span>RELEASE TRAIN</span><strong>#284</strong></div>
+              <div class="deploy-stage-list"><div class="done"><i>✓</i><span><b>Source</b><small>GitHub</small></span></div><div class="done"><i>✓</i><span><b>Build</b><small>Container image</small></span></div><div class="active"><i>03</i><span><b>Deploy</b><small>Rolling update</small></span></div><div><i>04</i><span><b>Observe</b><small>SLO validation</small></span></div><span class="deploy-beam"></span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section mission-section" id="mission-control">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">03 / MISSION CONTROL</p><h2>A deployment command center <span>built for the browser.</span></h2></div>
+        <div class="mission-shell reveal">
+          <div class="mission-copy">
+            <div class="mission-badge"><i></i> ZERO-BUILD · GITHUB PAGES READY</div>
+            <h3>From commit to cloud, every stage stays visible.</h3>
+            <p>A cinematic DevOps control surface that visualizes infrastructure, delivery, security and observability without a backend or build pipeline.</p>
+            <div class="mission-stats"><span><small>HOSTING</small><b>GitHub Pages</b></span><span><small>RUNTIME</small><b>Static + WebGL</b></span><span><small>DEPLOY</small><b>main / root</b></span></div>
+          </div>
+          <div class="mission-visual" aria-hidden="true">
+            <div class="holo-grid"></div>
+            <div class="holo-globe">
+              <span class="hg-ring r1"></span><span class="hg-ring r2"></span><span class="hg-ring r3"></span>
+              <div class="hg-core"><b>KS</b><small>DEVOPS</small></div>
+              <i class="sat s1">AZ</i><i class="sat s2">AWS</i><i class="sat s3">GCP</i><i class="sat s4">K8s</i><i class="sat s5">TF</i>
+              <i class="spark sp1"></i><i class="spark sp2"></i><i class="spark sp3"></i>
+            </div>
+            <div class="deploy-ribbon"><span>COMMIT</span><b>→</b><span>BUILD</span><b>→</b><span>SCAN</span><b>→</b><span>APPLY</span><b>→</b><span>SHIP</span><i></i></div>
+            <div class="mission-side ms-a"><small>CLUSTER</small><b>HEALTHY</b><em>24 / 24 pods</em></div>
+            <div class="mission-side ms-b"><small>SECURITY</small><b>PASS</b><em>0 critical</em></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section forge-section" id="synapse-forge">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">03 / SYNAPSE FORGE · 3D MODEL</p><h2>A unique technical model for <span>DevSecOps + AI orchestration.</span></h2></div>
+        <div class="forge-shell reveal">
+          <div class="forge-copy">
+            <span class="forge-kicker"><i></i> INTERACTIVE THREE.JS MODEL · ZERO BUILD</span>
+            <h3>Autonomous DevSecOps Reactor</h3>
+            <p>A procedural 3D model representing secure delivery: an infrastructure reactor at the center, with LLM reasoning, MCP tool bridges, Antigravity-assisted workflows, Terraform, Kubernetes and security layers orbiting as one system.</p>
+            <div class="forge-tool-grid">
+              <button class="forge-tool active" data-forge="ai"><span>AI</span><b>LLM Core</b><small>Reason · Explain · Assist</small></button>
+              <button class="forge-tool" data-forge="mcp"><span>MCP</span><b>Tool Bridge</b><small>Context · Integrations</small></button>
+              <button class="forge-tool" data-forge="ag"><span>AG</span><b>Antigravity</b><small>AI developer tooling</small></button>
+              <button class="forge-tool" data-forge="sec"><span>SEC</span><b>DevSecOps</b><small>Scan · Policy · Protect</small></button>
+            </div>
+            <div class="forge-terminal"><div class="forge-terminal-top"><span></span><span></span><span></span><b>synapse://runtime</b></div><code id="forgeLog">llm.core → infrastructure context synchronized</code><i></i></div>
+          </div>
+          <div class="forge-stage">
+            <canvas id="forgeCanvas" aria-label="Interactive 3D DevSecOps and AI reactor model"></canvas>
+            <div class="forge-grid-bg"></div><div class="forge-scan"></div>
+            <div class="forge-hud fh1"><small>MODEL</small><strong>DEVSECOPS-RX</strong></div>
+            <div class="forge-hud fh2"><small>STATE</small><strong id="forgeState"><i></i> SYNCHRONIZED</strong></div>
+            <div class="forge-hud fh3"><small>ACTIVE LAYER</small><strong id="forgeLayer">LLM CORE</strong></div>
+            <div class="forge-hint">DRAG · ORBIT · WHEEL TO ZOOM · SELECT A MODULE</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section neural-fabric-section" id="neural-fabric">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">03 / AURORA NEURAL FABRIC</p><h2>Cloud, security and AI — <span>connected as one living system.</span></h2></div>
+        <div class="fabric-shell reveal">
+          <div class="fabric-copy">
+            <span class="fabric-badge"><i></i> REAL-TIME CANVAS + CSS MOTION</span>
+            <h3>An interactive visual map of my DevSecOps stack.</h3>
+            <p>Move your cursor across the fabric to bend the network. Nodes represent cloud, IaC, Kubernetes, CI/CD, security, observability, LLM and MCP workflows — all rendered client-side for GitHub Pages.</p>
+            <div class="fabric-pills"><span>Multi-cloud</span><span>DevSecOps</span><span>LLM + MCP</span><span>IaC</span></div>
+            <div class="fabric-readouts">
+              <div><small>FABRIC</small><strong id="fabricState">SYNCHRONIZED</strong></div>
+              <div><small>NODES</small><strong>08</strong></div>
+              <div><small>LATENCY</small><strong id="fabricLatency">18ms</strong></div>
+            </div>
+          </div>
+          <div class="fabric-stage">
+            <canvas id="fabricCanvas" aria-label="Interactive animated DevSecOps neural fabric"></canvas>
+            <div class="fabric-vignette"></div><div class="fabric-scan"></div>
+            <div class="fabric-label fl1"><i></i><b>AZURE</b><small>Cloud</small></div>
+            <div class="fabric-label fl2"><i></i><b>TERRAFORM</b><small>IaC</small></div>
+            <div class="fabric-label fl3"><i></i><b>K8s</b><small>Orchestrate</small></div>
+            <div class="fabric-label fl4"><i></i><b>DEVSECOPS</b><small>Secure</small></div>
+            <div class="fabric-label fl5"><i></i><b>LLM + MCP</b><small>AI Automation</small></div>
+            <div class="fabric-core"><span class="fabric-mark">∆∞</span><small>CONTROL FABRIC</small><i></i></div>
+            <div class="fabric-hud"><span><i></i> LIVE TOPOLOGY</span><b>GPU ACCELERATED</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section twin-section" id="digital-twin">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">04 / DIGITAL TWIN</p><h2>Explore a living <span>cloud data center.</span></h2></div>
+        <div class="twin-shell reveal">
+          <div class="twin-copy">
+            <div class="twin-kicker"><i></i> INTERACTIVE WEBGL · STATIC HOSTING</div>
+            <h3>A 3D infrastructure twin that reacts to you.</h3>
+            <p>Rotate the scene, switch operational layers and watch traffic move from edge to platform services. Everything runs client-side, so it stays compatible with GitHub Pages.</p>
+            <div class="twin-modes" role="group" aria-label="Digital twin view mode">
+              <button class="twin-mode active" data-twin="platform">Platform</button>
+              <button class="twin-mode" data-twin="network">Network</button>
+              <button class="twin-mode" data-twin="security">Security</button>
+            </div>
+            <div class="twin-readouts">
+              <div><small>REGION</small><strong>PRIMARY</strong><span>Multi-cloud fabric</span></div>
+              <div><small>TRAFFIC</small><strong id="twinTraffic">12.8k</strong><span>req / min</span></div>
+              <div><small>STATE</small><strong id="twinState">HEALTHY</strong><span>all systems nominal</span></div>
+            </div>
+            <div class="twin-legend"><span><i class="lg-edge"></i>Edge</span><span><i class="lg-app"></i>Workload</span><span><i class="lg-data"></i>Data</span><span><i class="lg-sec"></i>Security</span></div>
+          </div>
+          <div class="twin-stage-wrap">
+            <canvas id="twinCanvas" aria-label="Interactive 3D cloud data center digital twin"></canvas>
+            <div class="twin-scan"></div>
+            <div class="twin-frame-corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <div class="twin-hud top"><span><i></i> DIGITAL TWIN / LIVE</span><b>WEBGL</b></div>
+            <div class="twin-hud bottom"><span>DRAG TO ORBIT</span><span>SCROLL TO ZOOM</span><button id="twinReset">RESET</button></div>
+            <div class="twin-hotspot hs1"><i></i><span><b>EDGE</b><small>Ingress / LB</small></span></div>
+            <div class="twin-hotspot hs2"><i></i><span><b>AKS / EKS</b><small>Workloads</small></span></div>
+            <div class="twin-hotspot hs3"><i></i><span><b>OBSERVE</b><small>Metrics / Logs</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ai-core-section" id="ai-core">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">04 / ADVANCED 3D MODULE</p><h2>AI-powered DevSecOps, <span>rendered as a living security graph.</span></h2></div>
+        <div class="ai-core-shell reveal">
+          <div class="ai-core-copy">
+            <span class="topology-kicker">THREE.JS · LLM · MCP · DEVSECOPS</span>
+            <h3>Neural Cloud Security Core</h3>
+            <p>An interactive 3D module that visualizes AI-assisted operations: cloud assets orbit the LLM core, MCP bridges tool access, and a security mesh scans Terraform, CI/CD and Kubernetes paths in real time.</p>
+            <div class="ai-core-features">
+              <span><b>LLM</b><small>Troubleshoot · Generate · Explain</small></span>
+              <span><b>MCP</b><small>Connect tools · Context · Actions</small></span>
+              <span><b>AG</b><small>Antigravity · AI developer tooling</small></span>
+              <span><b>SEC</b><small>SAST · Secrets · Vulnerabilities</small></span>
+            </div>
+            <div class="ai-mode-row" role="group" aria-label="AI core mode">
+              <button class="ai-mode active" data-ai-mode="observe">Observe</button>
+              <button class="ai-mode" data-ai-mode="secure">Secure</button>
+              <button class="ai-mode" data-ai-mode="automate">Automate</button>
+            </div>
+            <div class="ai-live-log" aria-live="polite"><i></i><code id="aiCoreLog">mcp://cloud → context synchronized</code></div>
+          </div>
+          <div class="ai-core-stage">
+            <canvas id="aiCoreCanvas" aria-label="Interactive 3D AI-powered DevSecOps security module"></canvas>
+            <div class="ai-corner ac1"><small>THREAT SURFACE</small><strong id="aiThreat">LOW</strong></div>
+            <div class="ai-corner ac2"><small>AUTOMATION</small><strong id="aiAutomation">82%</strong></div>
+            <div class="ai-scanline"></div>
+            <div class="ai-stage-labels" aria-hidden="true"><span>LLM CORE</span><span>MCP BRIDGE</span><span>SECURITY MESH</span></div>
+            <div class="ai-hint">DRAG TO ORBIT · WHEEL TO ZOOM · SWITCH MODE</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="skills" class="section">
       <div class="container">
         <div class="section-heading reveal"><p class="eyebrow">02 / TOOLCHAIN</p><h2>A multi-cloud toolkit for <span>shipping with confidence.</span></h2></div>
         <div class="skill-grid">
-          <article class="skill-card reveal"><div class="skill-icon">☁</div><p>Cloud</p><h3>Azure · AWS · GCP</h3><span>VMs, networking, storage, App Services, SQL, Key Vault, CloudWatch and more.</span></article>
-          <article class="skill-card reveal"><div class="skill-icon">◇</div><p>Infrastructure as Code</p><h3>Terraform</h3><span>Modules, remote backend, state management, workspaces and state locking.</span></article>
-          <article class="skill-card reveal"><div class="skill-icon">⬡</div><p>Containers</p><h3>Docker · Kubernetes</h3><span>AKS/EKS, ACR/ECR, containerized workloads and orchestration.</span></article>
-          <article class="skill-card reveal"><div class="skill-icon">∞</div><p>Delivery</p><h3>CI/CD</h3><span>Azure DevOps Pipelines, GitHub Actions, YAML, build and release automation.</span></article>
-          <article class="skill-card reveal"><div class="skill-icon">⌘</div><p>Automation</p><h3>PowerShell · Bash · Python</h3><span>Provisioning, operational automation, Azure CLI and repeatable workflows.</span></article>
-          <article class="skill-card reveal"><div class="skill-icon">◎</div><p>Observability & Security</p><h3>Monitor · Grafana · RBAC</h3><span>Prometheus, Log Analytics, Entra ID, IAM, OAuth 2.0 and DevSecOps.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon tech-icon"><span class="glyph-cloud"></span></div><p>Cloud</p><h3>Azure · AWS · GCP</h3><span>VMs, networking, storage, App Services, SQL, Key Vault, CloudWatch and more.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon tech-icon"><span class="glyph-iac">{ }</span></div><p>Infrastructure as Code</p><h3>Terraform</h3><span>Modules, remote backend, state management, workspaces and state locking.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon tech-icon"><span class="glyph-kube">K8</span></div><p>Containers</p><h3>Docker · Kubernetes</h3><span>AKS/EKS, ACR/ECR, containerized workloads and orchestration.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon tech-icon"><span class="glyph-pipe">↯</span></div><p>Delivery</p><h3>CI/CD</h3><span>Azure DevOps Pipelines, GitHub Actions, YAML, build and release automation.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon tech-icon"><span class="glyph-auto">&gt;_</span></div><p>Automation</p><h3>PowerShell · Bash · Python</h3><span>Provisioning, operational automation, Azure CLI and repeatable workflows.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon tech-icon"><span class="glyph-sec">S</span></div><p>Observability & Security</p><h3>Monitor · Grafana · RBAC</h3><span>Prometheus, Log Analytics, Entra ID, IAM, OAuth 2.0 and DevSecOps.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon tech-icon"><span class="glyph-ai">AI</span></div><p>AI & Generative AI</p><h3>LLM · Prompt Engineering</h3><span>AI-assisted DevOps, infrastructure analysis, troubleshooting, scripting and developer productivity.</span></article>
+          <article class="skill-card reveal"><div class="skill-icon tech-icon"><span class="glyph-mcp">M</span></div><p>AI Tool Integration</p><h3>MCP · LLM Tools</h3><span>Model Context Protocol, AI coding assistants and tool-connected automation workflows.</span></article>
+          <article class="skill-card reveal antigravity-card"><div class="skill-icon tech-icon"><span class="glyph-ag">AG</span></div><p>AI Tooling</p><h3>Antigravity · AI Coding Assistants</h3><span>AI-powered developer tooling for assisted analysis, scripting, documentation and DevOps productivity.</span></article>
         </div>
       </div>
     </section>
 
     <section id="experience" class="section experience-section">
       <div class="container">
-        <div class="section-heading reveal"><p class="eyebrow">03 / EXPERIENCE</p><h2>Building production infrastructure, <span>one deployment at a time.</span></h2></div>
+        <div class="section-heading reveal"><p class="eyebrow">05 / EXPERIENCE</p><h2>Building production infrastructure, <span>one deployment at a time.</span></h2></div>
         <div class="timeline">
           <article class="timeline-item reveal">
             <div class="timeline-date">JUN 2024 — PRESENT</div>
             <div class="timeline-dot"></div>
-            <div class="timeline-card glass-card"><div class="role-head"><div><p>One Click Insurer Web Aggregator Pvt. Ltd.</p><h3>DevOps Engineer</h3></div><span>Noida, India</span></div><p>Cloud architecture reviews, Terraform-based Azure/AWS infrastructure, CI/CD across Dev/QA/UAT/IAT/Production, scripting, identity & access, security scanning and cloud networking.</p><div class="chips mini"><span>Terraform</span><span>Azure DevOps</span><span>GitHub Actions</span><span>Azure</span><span>AWS</span></div></div>
+            <div class="timeline-card glass-card"><div class="role-head"><div><p>One Click Insurer Web Aggregator Pvt. Ltd.</p><h3>DevOps Engineer</h3></div><span>Noida, India</span></div><p>Cloud architecture reviews, Terraform-based Azure/AWS infrastructure, CI/CD across Dev/QA/UAT/IAT/Production, scripting, identity & access, security scanning, cloud networking, and AI-assisted DevOps workflows for Terraform/YAML analysis, troubleshooting and automation.</p><div class="chips mini"><span>Terraform</span><span>Azure DevOps</span><span>GitHub Actions</span><span>Azure</span><span>AWS</span></div></div>
           </article>
           <article class="timeline-item reveal">
             <div class="timeline-date">MAR 2023 — JUN 2024</div>
@@ -204,19 +485,20 @@
 
     <section id="projects" class="section">
       <div class="container">
-        <div class="section-heading reveal"><p class="eyebrow">04 / SELECTED PROJECTS</p><h2>Systems that turn <span>manual work into code.</span></h2></div>
+        <div class="section-heading reveal"><p class="eyebrow">06 / SELECTED PROJECTS</p><h2>Systems that turn <span>manual work into code.</span></h2></div>
         <div class="projects-grid">
           <article class="project-card reveal"><div class="project-visual terraform"><div class="cube c1"></div><div class="cube c2"></div><div class="cube c3"></div><div class="network-line l1"></div><div class="network-line l2"></div></div><div class="project-body"><p>01 · INFRASTRUCTURE</p><h3>Cloud Infrastructure Automation</h3><span>Automated Azure provisioning with Terraform and managed VNets, NSGs, App Services, Azure SQL and Key Vault.</span><div class="chips mini"><span>Azure</span><span>Terraform</span><span>PowerShell</span><span>Git</span></div></div></article>
           <article class="project-card reveal"><div class="project-visual pipeline"><div class="pipe-node">CODE</div><div class="pipe-arrow">→</div><div class="pipe-node">BUILD</div><div class="pipe-arrow">→</div><div class="pipe-node active">SHIP</div></div><div class="project-body"><p>02 · DELIVERY</p><h3>CI/CD Pipeline Automation</h3><span>Built automated build, test and deployment workflows using Azure DevOps, GitHub Actions, YAML and scripting.</span><div class="chips mini"><span>Azure DevOps</span><span>GitHub Actions</span><span>YAML</span></div></div></article>
           <article class="project-card reveal"><div class="project-visual kube"><div class="kube-ring"></div><div class="kube-core">K8s</div><div class="pod p1"></div><div class="pod p2"></div><div class="pod p3"></div><div class="pod p4"></div></div><div class="project-body"><p>03 · CONTAINERS</p><h3>Docker & Kubernetes</h3><span>Containerized applications and deployed workloads on AKS/EKS with managed container registries.</span><div class="chips mini"><span>Docker</span><span>Kubernetes</span><span>AKS</span><span>EKS</span></div></div></article>
           <article class="project-card reveal"><div class="project-visual security"><div class="shield">◇</div><span class="orbit o1"></span><span class="orbit o2"></span><span class="orbit o3"></span></div><div class="project-body"><p>04 · SECURITY</p><h3>Cloud Networking & Identity</h3><span>Built secure Azure networking and identity using Entra ID, RBAC, OAuth 2.0 and Key Vault.</span><div class="chips mini"><span>Entra ID</span><span>RBAC</span><span>OAuth 2.0</span><span>Key Vault</span></div></div></article>
+          <article class="project-card reveal ai-project"><div class="project-visual ai-visual"><div class="ai-orb"></div><div class="ai-orbit-ring ar1"></div><div class="ai-orbit-ring ar2"></div><span class="ai-dot d1">LLM</span><span class="ai-dot d2">MCP</span><span class="ai-dot d3">IaC</span></div><div class="project-body"><p>05 · AI + DEVSECOPS</p><h3>AI-Powered DevSecOps & LLM Automation</h3><span>AI-assisted infrastructure analysis, CI/CD troubleshooting, Terraform/YAML workflows and MCP-based tool integration for repetitive DevOps automation.</span><div class="chips mini"><span>LLM</span><span>MCP</span><span>Antigravity</span><span>Python</span><span>Terraform</span><span>DevSecOps</span></div></div></article>
         </div>
       </div>
     </section>
 
     <section class="section impact-section" id="impact">
       <div class="container">
-        <div class="section-heading reveal"><p class="eyebrow">05 / OPERATING PRINCIPLES</p><h2>Automation that feels <span>calm under pressure.</span></h2></div>
+        <div class="section-heading reveal"><p class="eyebrow">07 / OPERATING PRINCIPLES</p><h2>Automation that feels <span>calm under pressure.</span></h2></div>
         <div class="impact-grid">
           <article class="impact-card reveal"><span>01</span><h3>Repeatable</h3><p>Terraform modules, remote state and scripted workflows reduce configuration drift.</p><div class="meter"><i style="--w:92%"></i></div></article>
           <article class="impact-card reveal"><span>02</span><h3>Secure</h3><p>RBAC, Entra ID, Key Vault and security scanning are integrated into the delivery lifecycle.</p><div class="meter"><i style="--w:88%"></i></div></article>
@@ -227,7 +509,7 @@
 
     <section class="section contact-section" id="contact">
       <div class="container contact-card reveal">
-        <p class="eyebrow">06 / CONTACT</p>
+        <p class="eyebrow">08 / CONTACT</p>
         <h2>Ready to build infrastructure<br><span>that scales?</span></h2>
         <p>Connect with me for DevOps, cloud infrastructure and automation opportunities.</p>
         <div class="contact-actions">
@@ -239,17 +521,50 @@
     </section>
   </main>
 
-  <footer><div class="container"><span>© <b id="year"></b> Krishna Sharma</span><span>Designed for cloud. Built for the web.</span></div></footer>
+  <footer><div class="container"><span>© <b id="year"></b> Krishna Sharma</span><span>V14 · Multi-Region 3D Cloud World · Krishna AI Copilot · GitHub Pages optimized.</span></div></footer>
+
+  <button class="portfolio-bot-toggle" id="botToggle" aria-label="Open Krishna AI assistant"><span class="bot-orb"><i></i><b>AI</b></span><em>Ask Krishna AI</em></button>
+  <aside class="portfolio-bot" id="portfolioBot" aria-hidden="true">
+    <div class="bot-head">
+      <div><span class="bot-head-mark">K/AI</span><p><b>Krishna AI Copilot</b><small>Resume-grounded · DevSecOps + Cloud + AI</small></p></div>
+      <button id="botClose" aria-label="Close assistant">×</button>
+    </div>
+    <div class="bot-status"><i></i><span id="botStatusText">KNOWLEDGE GRAPH READY · LOCAL / GITHUB PAGES SAFE</span></div>
+    <div class="bot-context">
+      <span>DevSecOps</span><span>Azure/AWS/GCP</span><span>Terraform</span><span>Kubernetes</span><span>LLM</span><span>MCP</span><span>Antigravity</span>
+    </div>
+    <div class="bot-messages" id="botMessages" aria-live="polite">
+      <div class="bot-msg bot-ai"><b>Krishna AI online.</b><br>I can compare skills, explain projects, summarize experience, suggest interview questions, map the DevSecOps workflow, or open the right portfolio section.</div>
+    </div>
+    <div class="bot-quick">
+      <button data-q="Give me a 30 second recruiter summary">Recruiter summary</button>
+      <button data-q="Compare DevSecOps and AI skills">DevSecOps + AI</button>
+      <button data-q="Explain LLM MCP and Antigravity">LLM · MCP · AG</button>
+      <button data-q="What are the strongest projects?">Best projects</button>
+      <button data-q="Give me interview questions">Interview prep</button>
+    </div>
+    <div class="bot-command-row">
+      <button type="button" data-bot-action="skills">↗ Skills</button>
+      <button type="button" data-bot-action="projects">↗ Projects</button>
+      <button type="button" data-bot-action="resume">↗ Resume</button>
+    </div>
+    <form class="bot-form" id="botForm"><input id="botInput" autocomplete="off" placeholder="Ask Krishna AI anything about this portfolio…" aria-label="Ask Krishna AI"><button aria-label="Send">→</button></form>
+    <div class="bot-foot">No external AI API is required. Answers are grounded in the portfolio/resume content.</div>
+  </aside>
 
   <div id="resumeModal" class="modal" aria-hidden="true">
     <div class="modal-backdrop"></div>
     <div class="modal-panel">
-      <div class="modal-top"><div><p class="eyebrow">RESUME / PDF</p><strong>Krishna Sharma — DevOps Engineer</strong></div><div class="modal-actions"><a class="btn btn-primary small" href="./Krishna-Sharma-Resume.pdf" download>Download PDF ↓</a><button class="modal-close" aria-label="Close resume">×</button></div></div>
-      <iframe src="./Krishna-Sharma-Resume.pdf#view=FitH" title="Krishna Sharma Resume"></iframe>
+      <div class="modal-top"><div><p class="eyebrow">RESUME / PDF</p><strong>Krishna Sharma — DevSecOps Engineer</strong></div><div class="modal-actions"><a class="btn btn-primary small" href="./Krishna-Sharma-Resume.pdf" download>Download PDF ↓</a><button class="modal-close" aria-label="Close resume">×</button></div></div>
+      <iframe data-src="./Krishna-Sharma-Resume.pdf#view=FitH" title="Krishna Sharma Resume"></iframe>
     </div>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="./script.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script defer src="./script.js"></script>
+  <script defer src="./devsecops-3d-module.js"></script>
+  <script defer src="./forge-3d-module.js"></script>
+  <script defer src="./portfolio-chatbot.js"></script>
+  <script defer src="./animation-module.js"></script>
 </body>
 </html>
