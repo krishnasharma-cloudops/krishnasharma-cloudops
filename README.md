@@ -1,4 +1,3 @@
-::: {align="center"}
 # 👋 Hi, I'm Krishna Sharma
 
 ## 🛡️ DevSecOps Engineer \| ☁️ Multi-Cloud Engineer \| 🤖 AI-Assisted DevOps
@@ -8,7 +7,6 @@
 > **Engineering secure cloud platforms, automating infrastructure,
 > strengthening CI/CD pipelines, and exploring AI-powered DevSecOps
 > workflows.**
-:::
 
 ------------------------------------------------------------------------
 
