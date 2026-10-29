@@ -1,624 +1,146 @@
-# 👋 Hi, I'm Krishna Sharma
+<!--
+  KRISHNA SHARMA / GitHub Profile
+  Crafted for the profile repository: krishnasharma-cloudops/krishnasharma-cloudops
+  Theme: midnight / electric teal. Designed to feel like an engineering portfolio, not a badge wall.
+-->
 
-## 🛡️ DevSecOps Engineer \| ☁️ Multi-Cloud Engineer \| 🤖 AI-Assisted DevOps
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Krishna Sharma — DevOps, DevSecOps and AI-assisted cloud automation" />
+</p>
 
-### Azure • AWS • GCP • Terraform • Docker • Kubernetes • Linux • GitHub • AI • LLM • MCP • Antigravity
+<div align="center">
 
-> **Engineering secure cloud platforms, automating infrastructure,
-> strengthening CI/CD pipelines, and exploring AI-powered DevSecOps
-> workflows.**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2700&pause=1100&color=55DCCF&center=true&vCenter=true&width=780&height=38&lines=Terraform-first.+Security-minded.+AI-assisted.;From+cloud+architecture+to+automated+delivery.;Build+with+intent.+Ship+with+confidence.)](https://github.com/DenverCoder1/readme-typing-svg)
 
-------------------------------------------------------------------------
+<a href="https://www.linkedin.com/in/krishna-sharma-42110229"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0B1827?style=flat-square&logo=linkedin&logoColor=55DCCF&labelColor=0B1827" /></a>
+<a href="mailto:krishna.sharma.cloud.ops@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Say%20hello-0B1827?style=flat-square&logo=gmail&logoColor=55DCCF&labelColor=0B1827" /></a>
+<a href="https://github.com/krishnasharma-cloudops?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/GitHub-Explore%20work-0B1827?style=flat-square&logo=github&logoColor=55DCCF&labelColor=0B1827" /></a>
 
-# 🚀 About Me
+</div>
 
-I'm a **DevSecOps Engineer with 3.5+ years of experience** in designing,
-automating, securing, and managing modern cloud infrastructure.
+<br />
 
-My engineering experience spans **Microsoft Azure, AWS, Infrastructure
-as Code, CI/CD automation, containerization, Kubernetes, cloud
-networking, identity & access management, monitoring, security
-automation, and Linux**.
+## `01` / THE ENGINEER
 
-Alongside traditional DevOps and cloud engineering, I work with and
-explore **Artificial Intelligence, Generative AI, Large Language Models
-(LLMs), Model Context Protocol (MCP), AI coding assistants, and
-Antigravity** for infrastructure analysis, CI/CD troubleshooting,
-scripting, documentation, automation, and developer productivity.
+**I build cloud infrastructure as code, automate delivery, and put security into the workflow—not at the end of it.**
 
-> **Automate infrastructure. Integrate security. Observe everything. Use
-> AI intelligently.**
+I'm **Krishna Sharma**, a DevOps & DevSecOps professional with **15 months of internship experience** across cloud infrastructure automation, CI/CD, security validation, and multi-cloud environments. **Terraform is my strongest skill**: modular IaC, remote state, locking, backends, workspaces, and resource lifecycle management.
 
-------------------------------------------------------------------------
+I work primarily with **Microsoft Azure**, alongside **AWS and GCP**. I also use **Google Antigravity and AI agents** for AI-assisted Terraform development, infrastructure troubleshooting, and pipeline debugging.
 
-# ⚡ Core Engineering Stack
+> **Engineering approach:** Repeatable infrastructure · Verifiable changes · Security by design · Practical AI assistance
 
-☁️ **Cloud:** Azure • AWS • GCP\
-🏗️ **Infrastructure as Code:** Terraform • HCL • Modules • Remote State
-• Workspaces\
-🛡️ **DevSecOps:** Secure CI/CD • SAST • Secret Scanning • Vulnerability
-Detection • Security Automation\
-🔄 **CI/CD:** Azure DevOps • GitHub Actions • YAML Pipelines\
-🐳 **Containers:** Docker • ACR • ECR\
-☸️ **Orchestration:** Kubernetes • AKS • EKS • GKE\
-🐧 **Operating Systems:** Linux Administration\
-⚙️ **Automation:** Python • Bash • PowerShell\
-🌐 **Networking:** VNet • VPC • Subnets • NSG • Load Balancers • VPN •
-DNS • Hub-Spoke\
-🔐 **Identity & Security:** Entra ID • IAM • RBAC • OAuth 2.0 • Managed
-Identity • Key Vault\
-📊 **Observability:** Prometheus • Grafana • Azure Monitor • CloudWatch
-• CloudTrail\
-🤖 **AI Engineering:** Generative AI • LLMs • Prompt Engineering •
-AI-Assisted DevOps\
-🔌 **AI Integration:** MCP • LLM Tool Integration • AI Coding Assistants
-• Antigravity
+## `02` / TECHNOLOGY DNA
 
-------------------------------------------------------------------------
+<div align="center">
 
-# 🛡️ DevSecOps Engineering
+**CLOUD & INFRASTRUCTURE**
 
-I believe security should be integrated into every stage of the software
-delivery lifecycle rather than added after deployment.
+<img src="https://skillicons.dev/icons?i=terraform,azure,aws,gcp&theme=dark" alt="Terraform, Azure, AWS, GCP icons" />
 
--   🔐 Secure CI/CD pipeline design
--   🔍 Infrastructure security scanning
--   🛡️ SAST integration
--   🔑 Secret detection
--   🚨 Vulnerability detection
--   ⚙️ Security automation
--   👤 IAM and RBAC
--   🔒 OAuth 2.0
--   🔐 Secrets management
--   ☁️ Cloud security controls
--   📋 Security and compliance practices
--   🎯 Least-privilege access
--   🏗️ Secure Infrastructure as Code
+**DELIVERY & AUTOMATION**
 
-``` text
-CODE
-  │
-  ▼
-BUILD
-  │
-  ▼
-TEST
-  │
-  ▼
-SECURITY SCAN
-  │
-  ├── SAST
-  ├── Secret Detection
-  ├── Vulnerability Detection
-  └── IaC Security
-  │
-  ▼
-DEPLOY
-  │
-  ▼
-MONITOR
-  │
-  ▼
-AI-ASSISTED ANALYSIS
-  │
-  ▼
-IMPROVE
+<img src="https://skillicons.dev/icons?i=githubactions,git,github,bash,powershell&theme=dark" alt="GitHub Actions, Git, GitHub, Bash, PowerShell icons" />
+
+**LANGUAGES & SYSTEMS**
+
+<img src="https://skillicons.dev/icons?i=linux,py,java,cpp&theme=dark" alt="Linux, Python, Java, C++ icons" />
+
+</div>
+
+| Discipline | Tools & engineering practices |
+| :--- | :--- |
+| **Infrastructure as Code** | Terraform, HCL, reusable modules, remote state, state locking, workspaces |
+| **Azure architecture** | Landing Zones, Hub-and-Spoke networks, VNets, NSGs, RBAC, Key Vault |
+| **Delivery** | Azure DevOps, YAML pipelines, GitHub Actions, Git |
+| **DevSecOps** | tfsec, TFLint, SonarQube, shift-left checks |
+| **AI-assisted workflows** | Google Antigravity, AI agents, IaC generation, troubleshooting |
+| **FinOps** | Infracost, OpenCost, infrastructure cost visibility |
+| **Foundations** | Linux CLI, Python, Java, C++, Bash, PowerShell *(basic)* |
+
+## `03` / SELECTED BUILDS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>01 — Azure Landing Zone</h3>
+<p><b>Architecture / Terraform / Azure</b></p>
+<p>Implemented Azure Landing Zone infrastructure and a Hub-and-Spoke network architecture using modular Terraform configurations.</p>
+<p><code>Azure</code> <code>Terraform</code> <code>Networking</code></p>
+</td>
+<td width="50%" valign="top">
+<h3>02 — Multi-Cloud IaC</h3>
+<p><b>Provisioning / Reusability / State</b></p>
+<p>Provisioned infrastructure across Azure, AWS and GCP using Terraform modules, remote backends, state locking, and multi-environment configurations.</p>
+<p><code>Azure</code> <code>AWS</code> <code>GCP</code> <code>HCL</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>03 — Secure Terraform Delivery</h3>
+<p><b>CI/CD / DevSecOps / Quality gates</b></p>
+<p>Built YAML-based infrastructure delivery workflows with Azure DevOps and GitHub Actions; incorporated tfsec, TFLint and SonarQube checks.</p>
+<p><code>Azure DevOps</code> <code>GitHub Actions</code> <code>tfsec</code></p>
+</td>
+<td width="50%" valign="top">
+<h3>04 — AI-Assisted DevOps</h3>
+<p><b>AI agents / Terraform / Debugging</b></p>
+<p>Used Google Antigravity and AI agents to assist with Terraform code generation, configuration refinement, task execution and CI/CD troubleshooting.</p>
+<p><code>Antigravity</code> <code>AI Agents</code> <code>Terraform</code></p>
+</td>
+</tr>
+</table>
+
+**Also explored:** **Infracost** for Terraform cost estimates and **OpenCost** for cloud-native infrastructure cost visibility.
+
+<details>
+<summary><b>View the infrastructure delivery reference flow</b></summary>
+<br />
+
+```mermaid
+flowchart LR
+    A[Git / Terraform] --> B[Azure DevOps or GitHub Actions]
+    B --> C[Format + Validate]
+    C --> D[tfsec / TFLint / SonarQube]
+    D --> E[Terraform Plan]
+    E --> F[Review]
+    F --> G[Terraform Apply]
+    G --> H[Azure / AWS / GCP]
 ```
 
-------------------------------------------------------------------------
+<sub>A conceptual delivery pattern featuring tools used in my projects; not a claim that every step was deployed in one pipeline.</sub>
+</details>
 
-# 🤖 AI-Powered DevSecOps
+## `04` / EXPERIENCE
 
-One of my key areas of interest is the intersection of **Cloud +
-DevSecOps + Artificial Intelligence**.
+| Role | Organization | Period |
+| :--- | :--- | :--- |
+| **DevOps Intern** | Davin Technologies | Jul 2026 – Oct 2026 |
+| **DevOps & DevSecOps Intern** | DevOps Insider | Jun 2025 – Jun 2026 |
 
-I use and explore **LLM-assisted workflows** to support:
+**Work covered:** Terraform-based automation, multi-cloud provisioning, Azure architecture, YAML CI/CD pipelines, security analysis, cost visibility, and AI-assisted DevOps workflows.
 
--   🧠 Infrastructure configuration analysis
--   🏗️ Terraform configuration review
--   🔄 CI/CD troubleshooting
--   📝 YAML pipeline assistance
--   🐍 Python/Bash/PowerShell scripting assistance
--   📚 Technical documentation
--   🔍 Deployment issue analysis
--   ⚙️ Repetitive task automation
--   🛡️ DevSecOps workflow analysis
--   💡 Developer productivity
+## `05` / WHAT I'M BUILDING TOWARD
 
-> The objective is to use AI as an **engineering accelerator** while
-> keeping engineering judgment at the center.
+- **Infrastructure that scales:** modular Terraform and repeatable multi-environment deployments.
+- **Delivery that is safer:** validation, security checks, and reviewable infrastructure changes.
+- **AI used responsibly:** agent-assisted workflows with human review and technical verification.
 
-------------------------------------------------------------------------
+<div align="center">
 
-# 🧠 Large Language Models --- LLM
+---
 
-``` text
-                    ┌──────────────────┐
-                    │     AI / LLM     │
-                    └────────┬─────────┘
-                             │
-            ┌────────────────┼────────────────┐
-            │                │                │
-            ▼                ▼                ▼
-       Terraform          CI/CD           Kubernetes
-       Analysis        Troubleshooting     Analysis
-            │                │                │
-            └────────────────┼────────────────┘
-                             │
-                             ▼
-                    DevOps Automation
-                             │
-                             ▼
-                  Cloud Infrastructure
-```
+### LET'S BUILD SOMETHING RELIABLE.
 
-### Areas I'm Exploring
+**DevOps · DevSecOps · Terraform · Multi-Cloud · AI-Assisted Automation**
 
-`LLM-assisted troubleshooting` • `Infrastructure analysis` •
-`Pipeline analysis` • `Configuration assistance` •
-`Documentation automation` • `Operational automation` •
-`AI-assisted security analysis`
+<a href="mailto:krishna.sharma.cloud.ops@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/krishna-sharma-42110229">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/krishnasharma-cloudops?tab=repositories">Repositories</a>
 
-------------------------------------------------------------------------
+<sub>Design → Automate → Validate → Secure → Deliver</sub>
 
-# 🔌 Model Context Protocol --- MCP
+</div>
 
-I'm particularly interested in **Model Context Protocol (MCP)** and its
-potential role in connecting AI/LLM systems with engineering tools and
-DevOps workflows.
-
-``` text
-                         ┌──────────────┐
-                         │   Engineer   │
-                         └──────┬───────┘
-                                │
-                                ▼
-                         ┌──────────────┐
-                         │   AI / LLM   │
-                         └──────┬───────┘
-                                │
-                                ▼
-                         ┌──────────────┐
-                         │     MCP      │
-                         └──────┬───────┘
-                                │
-           ┌────────────────────┼────────────────────┐
-           │                    │                    │
-           ▼                    ▼                    ▼
-       Terraform             GitHub              CI/CD
-           │                    │                    │
-           ▼                    ▼                    ▼
-     Infrastructure        Source Code          Pipelines
-           │                    │                    │
-           └────────────────────┼────────────────────┘
-                                │
-                                ▼
-                      DevSecOps Automation
-```
-
-### MCP Focus
-
--   LLM-to-tool integration
--   Context-aware DevOps assistance
--   Infrastructure analysis
--   CI/CD workflow interaction
--   Engineering automation
--   AI-assisted troubleshooting
--   Developer productivity
-
-------------------------------------------------------------------------
-
-# 🚀 Antigravity + AI-Assisted Engineering
-
-I explore **Antigravity and AI coding assistants** as part of modern
-AI-assisted engineering workflows.
-
--   Infrastructure development
--   Terraform assistance
--   DevOps scripting
--   YAML pipeline development
--   Troubleshooting
--   Documentation
--   Repository analysis
--   Automation workflows
--   Developer productivity
-
-``` text
-                    AI ENGINEERING
-                          │
-              ┌───────────┼───────────┐
-              │           │           │
-              ▼           ▼           ▼
-             LLM         MCP     Antigravity
-              │           │           │
-              └───────────┼───────────┘
-                          │
-                          ▼
-                  AI-Assisted DevOps
-                          │
-          ┌───────────────┼───────────────┐
-          ▼               ▼               ▼
-      Terraform         CI/CD         Kubernetes
-          │               │               │
-          └───────────────┼───────────────┘
-                          │
-                          ▼
-                    DevSecOps
-                          │
-                          ▼
-                 Azure / AWS / GCP
-```
-
-------------------------------------------------------------------------
-
-# ☁️ Multi-Cloud Engineering
-
-## 🔷 Microsoft Azure
-
-`Virtual Machines` • `VNet` • `Subnets` • `NSG` • `Load Balancer` •
-`App Services` • `Azure SQL` • `Storage Account` • `Key Vault` •
-`Bastion` • `Azure Firewall` • `Azure Monitor` • `Log Analytics` •
-`Application Insights` • `Entra ID` • `RBAC` • `Azure Policy` •
-`Defender for Cloud` • `ACR` • `Azure DevOps` • `Azure CLI`
-
-## 🟠 Amazon Web Services
-
-`EC2` • `VPC` • `Subnets` • `Security Groups` • `NAT Gateway` •
-`Internet Gateway` • `ALB` • `ELB` • `Auto Scaling` • `S3` • `RDS` •
-`EBS` • `ECR` • `IAM` • `KMS` • `Secrets Manager` • `Route 53` •
-`CloudWatch` • `CloudTrail` • `Lambda` • `EKS` • `AWS CLI`
-
-## 🟡 Google Cloud Platform
-
-`Compute Engine` • `GKE` • `VPC` • `Subnets` • `Firewall Rules` •
-`Cloud Load Balancing` • `Cloud NAT` • `Cloud Router` • `Cloud Storage`
-• `Cloud SQL` • `Artifact Registry` • `IAM` • `Service Accounts` •
-`Secret Manager` • `Cloud DNS` • `Cloud Monitoring` • `Cloud Logging` •
-`Cloud Audit Logs` • `Cloud Functions`
-
-------------------------------------------------------------------------
-
-# 🏗️ Terraform --- Infrastructure as Code
-
-Terraform is one of the core technologies in my cloud engineering stack.
-
--   Terraform HCL
--   Providers
--   Resources
--   Variables & Outputs
--   Data Sources
--   Terraform Modules
--   Reusable Infrastructure
--   Remote Backend
--   State Management
--   State Locking
--   Terraform Workspaces
--   Resource Dependencies
--   Multi-environment Infrastructure
--   Infrastructure Automation
-
-``` text
-                       Terraform
-                           │
-             ┌─────────────┼─────────────┐
-             │             │             │
-             ▼             ▼             ▼
-          Azure           AWS           GCP
-             │             │             │
-             └─────────────┼─────────────┘
-                           │
-                           ▼
-                  Automated Infrastructure
-```
-
-------------------------------------------------------------------------
-
-# 🐳 Docker & Containerization
-
--   Docker Images & Containers
--   Dockerfile
--   Docker Compose
--   Container Networking
--   Container Volumes
--   Image Management
--   Container Registries
--   Azure Container Registry
--   Amazon ECR
--   Containerized application deployment
-
-``` text
-Application → Dockerfile → Docker Image → Container Registry → Kubernetes
-```
-
-------------------------------------------------------------------------
-
-# ☸️ Kubernetes
-
-`Pods` • `Deployments` • `Services` • `ConfigMaps` • `Secrets` •
-`Namespaces` • `Ingress` • `Persistent Volumes` • `RBAC` •
-`Horizontal Pod Autoscaling` • `Rolling Updates`
-
-### Managed Kubernetes
-
-☁️ Azure → **AKS**\
-☁️ AWS → **EKS**\
-☁️ GCP → **GKE**
-
-------------------------------------------------------------------------
-
-# 🐧 Linux Engineering
-
--   Linux administration
--   Bash scripting
--   File and permission management
--   Process management
--   Service management
--   Networking & troubleshooting
--   Automation
--   Nginx
--   Apache
-
-------------------------------------------------------------------------
-
-# 🐙 Git & GitHub
-
--   Git
--   GitHub
--   GitHub Actions
--   Repository Management
--   Branching Strategies
--   Pull Requests
--   Version Control
--   CI/CD Integration
--   Infrastructure Repositories
--   YAML Workflows
-
-``` text
-Developer → Git → GitHub → GitHub Actions
-                              │
-                 ┌────────────┼────────────┐
-                 ▼            ▼            ▼
-               Build       Security     Deploy
-                 │            │            │
-                 └────────────┼────────────┘
-                              ▼
-                     Cloud / Kubernetes
-```
-
-------------------------------------------------------------------------
-
-# 🔄 CI/CD Automation
-
-**Azure DevOps + GitHub Actions + YAML**
-
-``` text
-SOURCE CODE
-     │
-     ▼
-   BUILD
-     │
-     ▼
-    TEST
-     │
-     ▼
-SECURITY CHECK
-     │
-     ▼
-TERRAFORM / CONTAINER BUILD
-     │
-     ▼
-   DEPLOY
-     │
-     ▼
-DEV / QA / UAT / PRODUCTION
-```
-
-------------------------------------------------------------------------
-
-# 🌐 Cloud Networking
-
-`VNet / VPC` • `Public & Private Subnets` • `Routing` •
-`NSG / Security Groups` • `Firewall Rules` • `Load Balancers` •
-`NAT Gateway` • `VPN` • `DNS` • `VNet / VPC Peering` •
-`Hub-and-Spoke Architecture` • `Hybrid Connectivity` •
-`Cloud Network Security`
-
-------------------------------------------------------------------------
-
-# 🔐 Identity & Access Management
-
-**Azure:** `Microsoft Entra ID` • `RBAC` • `Managed Identity` •
-`Key Vault`\
-**AWS:** `IAM` • `KMS` • `Secrets Manager`\
-**GCP:** `IAM` • `Service Accounts` • `Secret Manager`
-
-Additional focus: `OAuth 2.0` • `Least Privilege` • `Secrets Management`
-• `Azure Policy` • `Microsoft Defender for Cloud`
-
-------------------------------------------------------------------------
-
-# 📊 Monitoring & Observability
-
-**Azure:** `Azure Monitor` • `Log Analytics` • `Application Insights`\
-**AWS:** `CloudWatch` • `CloudTrail`\
-**GCP:** `Cloud Monitoring` • `Cloud Logging` • `Cloud Audit Logs`\
-**Open Source:** `Prometheus` • `Grafana`
-
-``` text
-Applications + Infrastructure
-             │
-             ▼
-        Metrics / Logs
-             │
-             ▼
-       Monitoring Stack
-             │
-             ▼
-      Alerts & Dashboards
-             │
-             ▼
-       Troubleshooting
-             │
-             ▼
-     AI-Assisted Analysis
-```
-
-------------------------------------------------------------------------
-
-# 🔥 Engineering Ecosystem
-
-``` text
-                     KRISHNA SHARMA
-                           │
-                           ▼
-                       DEVSECOPS
-                           │
-        ┌──────────────────┼──────────────────┐
-        │                  │                  │
-        ▼                  ▼                  ▼
-      CLOUD               IaC              CI/CD
-        │                  │                  │
- Azure AWS GCP         Terraform       GitHub Actions
-        │                                     │
-        └──────────────────┬──────────────────┘
-                           │
-                           ▼
-                   Docker + Kubernetes
-                           │
-                           ▼
-                         Linux
-                           │
-                           ▼
-                    Security + IAM
-                           │
-                           ▼
-                 Monitoring / Logging
-                           │
-                           ▼
-                      AI + LLM
-                           │
-                    ┌──────┴──────┐
-                    ▼             ▼
-                   MCP       Antigravity
-                    │             │
-                    └──────┬──────┘
-                           ▼
-                 AI-Powered DevSecOps
-```
-
-------------------------------------------------------------------------
-
-# 🎯 Current Focus
-
--   ☁️ Multi-Cloud Engineering --- Azure • AWS • GCP
--   🏗️ Terraform & Infrastructure as Code
--   🛡️ DevSecOps & Security Automation
--   🔄 Azure DevOps & GitHub Actions
--   🐳 Docker & Containerization
--   ☸️ Kubernetes --- AKS • EKS • GKE
--   🐧 Linux & Automation
--   🐙 Git & GitHub
--   📊 Monitoring & Observability
--   🤖 Generative AI & AI-Assisted DevOps
--   🧠 Large Language Models
--   🔌 Model Context Protocol
--   🚀 Antigravity & AI-Assisted Engineering
-
-------------------------------------------------------------------------
-
-# 🚀 Engineering Roadmap
-
-``` text
-CLOUD
-  ↓
-DEVOPS
-  ↓
-DEVSECOPS
-  ↓
-INFRASTRUCTURE AS CODE
-  ↓
-DOCKER + KUBERNETES
-  ↓
-CLOUD-NATIVE DEVOPS
-  ↓
-AI + LLM
-  ↓
-MCP
-  ↓
-ANTIGRAVITY
-  ↓
-AI-POWERED DEVSECOPS
-  ↓
-INTELLIGENT CLOUD AUTOMATION
-```
-
-------------------------------------------------------------------------
-
-# 💡 Engineering Principles
-
-> ### ☁️ Design for Scale
->
-> Build infrastructure that can evolve with application requirements.
-
-> ### 🏗️ Automate by Default
->
-> If a process is repeatable, look for opportunities to automate it.
-
-> ### 🛡️ Security from the Beginning
->
-> Integrate security into infrastructure and delivery pipelines.
-
-> ### 📊 Observe Everything
->
-> Reliable systems require visibility into infrastructure and
-> applications.
-
-> ### 🤖 Use AI as an Engineering Accelerator
->
-> Apply AI where it can improve analysis, automation, troubleshooting,
-> documentation, and productivity while keeping engineering judgment at
-> the center.
-
-------------------------------------------------------------------------
-
-# 📫 Connect With Me
-
-### 👨‍💻 Krishna Sharma
-
-**DevSecOps Engineer \| Cloud & AI Automation**
-
-📧 **Email:** <krishna.sharma.cloud.ops@gmail.com>
-
-💻 **GitHub:**
-[krishnasharma-cloudops](https://github.com/krishnasharma-cloudops)
-
-🔗 **LinkedIn:** [Krishna
-Sharma](https://www.linkedin.com/in/krishna-sharma-42110229)
-
-------------------------------------------------------------------------
-
-::: {align="center"}
-## ☁️ CLOUD × 🛡️ DEVSECOPS × ⚙️ AUTOMATION × 🤖 AI
-
-### Azure • AWS • GCP
-
-### Terraform • Docker • Kubernetes • Linux
-
-### GitHub • CI/CD • Security • Monitoring
-
-### AI • LLM • MCP • Antigravity
-
-------------------------------------------------------------------------
-
-### 🚀 Building Secure Infrastructure
-
-### ⚙️ Automating Repetitive Operations
-
-### 🛡️ Integrating Security into Delivery
-
-### 🤖 Exploring AI-Powered DevSecOps
-
-**Automate → Secure → Deploy → Observe → Analyze → Improve**
-
-⭐ **Always Learning • Always Automating • Always Improving**
-:::
+<!--
+OPTIONAL CONTRIBUTION SNAKE: To enable, first run .github/workflows/snake.yml successfully,
+then paste the <picture> snippet from SNAKE_SETUP.md here.
+-->

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Krishna Sharma — DevOps, DevSecOps and AI-assisted cloud automation</title>
+  <desc id="desc">Dark custom animated portfolio banner with Krishna Sharma's name and an animated cloud engineering network.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070D19"/><stop offset=".58" stop-color="#101C30"/><stop offset="1" stop-color="#071623"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#53E5D3"/><stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="dash" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4AD6C9" stop-opacity=".04"/>
+      <stop offset=".5" stop-color="#4AD6C9" stop-opacity=".94"/>
+      <stop offset="1" stop-color="#4AD6C9" stop-opacity=".04"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0 H0 V32" fill="none" stroke="#7DD3FC" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+    <style>
+      .mono {font-family:'DejaVu Sans Mono','Liberation Mono',monospace;letter-spacing:2px}
+      .sans {font-family:'DejaVu Sans',Arial,sans-serif}
+      .march {stroke-dasharray:7 16;animation:travel 5s linear infinite}
+      .march2 {stroke-dasharray:4 12;animation:travel 7s linear infinite reverse}
+      .breathe {animation:breathe 4s ease-in-out infinite}
+      .breathe2 {animation:breathe 4s ease-in-out 1.2s infinite}
+      .blink {animation:blink 1.2s steps(1) infinite}
+      .float {animation:float 7s ease-in-out infinite}
+      @keyframes travel {to{stroke-dashoffset:-230}}
+      @keyframes breathe {0%,100%{opacity:.4}50%{opacity:1}}
+      @keyframes blink {0%,50%{opacity:1}51%,100%{opacity:0}}
+      @keyframes float {0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="359" rx="17.5" fill="none" stroke="#27435A"/>
+  <rect x="44" y="38" width="32" height="3" rx="1.5" fill="#5DE5D6"/>
+  <text x="89" y="43" fill="#98B6C8" font-size="12" class="mono">ENGINEERING / PROFILE</text>
+  <rect x="1028" y="32" width="134" height="28" rx="14" fill="#123C3D" stroke="#2A7376"/>
+  <circle cx="1044" cy="46" r="4" fill="#5DE5D6" class="breathe"/>
+  <text x="1056" y="51" fill="#C6F8ED" font-size="10" class="mono" letter-spacing=".7">BUILD MODE</text>
+  <text x="55" y="163" fill="#FFFFFF" font-size="73" font-weight="780" class="sans" letter-spacing="1.1">KRISHNA</text>
+  <text x="55" y="233" fill="#FFFFFF" font-size="73" font-weight="780" class="sans" letter-spacing="1.1">SHARMA<tspan fill="#5DE5D6">.</tspan></text>
+  <rect x="57" y="253" width="60" height="4" rx="2" fill="url(#accent)"/>
+  <text x="57" y="291" fill="#B9D1E1" font-size="16" class="mono" letter-spacing="1.2">DEVOPS  /  DEVSECOPS  /  AI AUTOMATION</text>
+  <text x="57" y="323" fill="#65E2D1" font-size="12" class="mono" letter-spacing="1.1">INFRASTRUCTURE AS CODE  //  SECURE DELIVERY  //  MULTI-CLOUD</text>
+  <rect x="1085" y="316" width="11" height="2" fill="#5DE5D6" class="blink"/>
+  <g opacity=".55">
+    <path d="M720 93 L809 133 L922 94 L1067 147 L1114 251 L950 298 L815 255 Z" fill="none" stroke="#43728B" stroke-width="1.3"/>
+    <path d="M809 133 L815 255 L950 298 L922 94 L1067 147 L950 298" fill="none" stroke="#3E6B86" stroke-width="1"/>
+    <path d="M720 93 L922 94 L1114 251 L815 255 L1067 147" fill="none" stroke="#3B6B83" stroke-width=".8"/>
+  </g>
+  <g fill="none" stroke="url(#dash)" stroke-width="3" stroke-linecap="round">
+    <path d="M720 93 L809 133 L922 94 L1067 147" class="march"/>
+    <path d="M809 133 L815 255 L950 298 L1114 251" class="march2"/>
+    <path d="M922 94 L950 298" class="march"/>
+  </g>
+  <g class="float">
+    <circle cx="920" cy="186" r="59" fill="#13364A" fill-opacity=".65" stroke="#6DEFE0" stroke-opacity=".65" stroke-width="1.6"/>
+    <circle cx="920" cy="186" r="70" fill="none" stroke="#5DE5D6" stroke-opacity=".14" stroke-dasharray="2 10"/>
+    <path d="M899 158 L917 166 L917 188 L899 179 Z M922 168 L943 178 L943 201 L922 191 Z M899 186 L917 195 L917 217 L899 207 Z M922 196 L943 206 L943 228 L922 217 Z" fill="#67DCCA" opacity=".95"/>
+  </g>
+  <g fill="#6CECD9">
+    <circle cx="720" cy="93" r="4" class="breathe"/><circle cx="809" cy="133" r="4" class="breathe2"/>
+    <circle cx="922" cy="94" r="4" class="breathe"/><circle cx="1067" cy="147" r="4" class="breathe2"/>
+    <circle cx="1114" cy="251" r="4" class="breathe"/><circle cx="815" cy="255" r="4" class="breathe2"/>
+    <circle cx="950" cy="298" r="4" class="breathe"/>
+  </g>
+  <circle cx="920" cy="186" r="54" fill="#61E5D5" fill-opacity=".09" filter="url(#glow)" class="breathe"/>
+  <text x="773" y="321" fill="#86A9C1" font-size="10" class="mono">CLOUD  •  SECURITY  •  AUTOMATION</text>
+</svg>
