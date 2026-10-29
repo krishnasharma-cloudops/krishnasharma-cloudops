@@ -1,6 +1,4 @@
-/** Public configuration only. Never put API keys in this file. */
-window.KRISHNA_SITE_CONFIG = {
-  // Default: built-in resume-grounded assistant, with no API keys required.
-  // To enable live generative AI, deploy optional-ai-backend/worker.js and paste its URL below.
-  aiEndpoint: ""
-};
+// OPTIONAL: For actual generative AI, deploy the secure backend in optional-ai-backend/
+// and paste the worker's HTTPS URL below. Leave blank for the built-in resume knowledge assistant.
+// NEVER put an AI API key in this file or any public GitHub repository.
+window.KRISHNA_SITE_CONFIG = { aiEndpoint: '' };
