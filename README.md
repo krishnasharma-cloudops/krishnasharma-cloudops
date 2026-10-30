@@ -12,7 +12,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2700&pause=1100&color=55DCCF&center=true&vCenter=true&width=780&height=38&lines=Terraform-first.+Security-minded.+AI-assisted.;From+cloud+architecture+to+automated+delivery.;Build+with+intent.+Ship+with+confidence.)](https://github.com/DenverCoder1/readme-typing-svg)
 
-<a href="[https://www.linkedin.com/in/krishna-sharma-42110229](https://www.linkedin.com/in/krishna-sharma-42110229a/)"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0B1827?style=flat-square&logo=linkedin&logoColor=55DCCF&labelColor=0B1827" /></a>
+<a href="https://www.linkedin.com/in/krishna-sharma-42110229a/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0B1827?style=flat-square&logo=linkedin&logoColor=55DCCF&labelColor=0B1827" /></a>
 <a href="mailto:krishna.sharma.cloud.ops@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Say%20hello-0B1827?style=flat-square&logo=gmail&logoColor=55DCCF&labelColor=0B1827" /></a>
 <a href="https://github.com/krishnasharma-cloudops?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/GitHub-Explore%20work-0B1827?style=flat-square&logo=github&logoColor=55DCCF&labelColor=0B1827" /></a>
 
@@ -134,7 +134,7 @@ flowchart LR
 
 **DevOps · DevSecOps · Terraform · Multi-Cloud · AI-Assisted Automation**
 
-<a href="mailto:krishna.sharma.cloud.ops@gmail.com">Email</a> &nbsp;·&nbsp; <a href="[https://www.linkedin.com/in/krishna-sharma-42110229](https://www.linkedin.com/in/krishna-sharma-42110229a/)">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/krishnasharma-cloudops?tab=repositories">Repositories</a>
+<a href="mailto:krishna.sharma.cloud.ops@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/krishna-sharma-42110229a/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/krishnasharma-cloudops?tab=repositories">Repositories</a>
 
 <sub>Design → Automate → Validate → Secure → Deliver</sub>
 
