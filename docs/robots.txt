@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://krishnasharma-cloudops.github.io/krishnasharma-cloudops/sitemap.xml
