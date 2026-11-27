@@ -24,9 +24,9 @@
 
 **I build cloud infrastructure as code, automate delivery, and put security into the workflow—not at the end of it.**
 
-I'm **Krishna Sharma**, a DevOps & DevSecOps professional with **15 months of internship experience** across cloud infrastructure automation, CI/CD, security validation, and multi-cloud environments. **Terraform is my strongest skill**: modular IaC, remote state, locking, backends, workspaces, and resource lifecycle management.
+I'm **Krishna Sharma**, a **DevSecOps Engineer at SmartMudra Technologies Private Limited (FinTech)** since May 2026, with **15 months of DevOps and DevSecOps internship experience** across cloud infrastructure automation, CI/CD, security validation, and multi-cloud environments. **Terraform is my strongest skill**: modular IaC, remote state, locking, backends, workspaces, and resource lifecycle management.
 
-I work primarily with **Microsoft Azure**, alongside **AWS and GCP**. I also use **Google Antigravity and AI agents** for AI-assisted Terraform development, infrastructure troubleshooting, and pipeline debugging.
+I work primarily with **Microsoft Azure**, with hands-on AWS work and GCP exposure. My current role includes Linux server administration, application deployment, environment configuration, infrastructure and application monitoring, and cloud deployment troubleshooting. I also use **Google Antigravity and AI agents** for AI-assisted Terraform development, infrastructure troubleshooting, and pipeline debugging.
 
 > **Engineering approach:** Repeatable infrastructure · Verifiable changes · Security by design · Practical AI assistance
 
@@ -50,13 +50,14 @@ I work primarily with **Microsoft Azure**, alongside **AWS and GCP**. I also use
 
 | Discipline | Tools & engineering practices |
 | :--- | :--- |
-| **Infrastructure as Code** | Terraform, HCL, reusable modules, remote state, state locking, workspaces |
-| **Azure architecture** | Landing Zones, Hub-and-Spoke networks, VNets, NSGs, RBAC, Key Vault |
+| **Infrastructure as Code** | Advanced Terraform, HCL, reusable modules, remote state, state locking, backends, workspaces, import, dynamic blocks, `for_each`, `count`, lifecycle management |
+| **Azure architecture** | Landing Zones, Hub-and-Spoke networks, VNets, NSGs, VNet peering, RBAC, Key Vault, Storage, Virtual Machines |
 | **Delivery** | Azure DevOps, YAML pipelines, GitHub Actions, Git |
 | **DevSecOps** | tfsec, TFLint, SonarQube, shift-left checks |
 | **AI-assisted workflows** | Google Antigravity, AI agents, IaC generation, troubleshooting |
 | **FinOps** | Infracost, OpenCost, infrastructure cost visibility |
-| **Foundations** | Linux CLI, Python, Java, C++, Bash, PowerShell *(basic)* |
+| **Cloud operations** | Linux server administration, application deployment, infrastructure and application monitoring, deployment troubleshooting |
+| **Foundations** | Ubuntu, Linux CLI, basic SSH and networking; Python, Java, C++, Bash, PowerShell *(basic)* |
 
 ## `03` / SELECTED BUILDS
 
@@ -65,13 +66,13 @@ I work primarily with **Microsoft Azure**, alongside **AWS and GCP**. I also use
 <td width="50%" valign="top">
 <h3>01 — Azure Landing Zone</h3>
 <p><b>Architecture / Terraform / Azure</b></p>
-<p>Implemented Azure Landing Zone infrastructure and a Hub-and-Spoke network architecture using modular Terraform configurations.</p>
+<p>Designed Azure Landing Zone infrastructure and a Hub-and-Spoke network architecture using modular Terraform configurations.</p>
 <p><code>Azure</code> <code>Terraform</code> <code>Networking</code></p>
 </td>
 <td width="50%" valign="top">
 <h3>02 — Multi-Cloud IaC</h3>
 <p><b>Provisioning / Reusability / State</b></p>
-<p>Provisioned infrastructure across Azure, AWS and GCP using Terraform modules, remote backends, state locking, and multi-environment configurations.</p>
+<p>Developed reusable configurations for Azure, AWS and GCP using Terraform modules, remote backends, state locking, and multi-environment configurations.</p>
 <p><code>Azure</code> <code>AWS</code> <code>GCP</code> <code>HCL</code></p>
 </td>
 </tr>
@@ -115,8 +116,13 @@ flowchart LR
 
 | Role | Organization | Period |
 | :--- | :--- | :--- |
+| **DevSecOps Engineer** | SmartMudra Technologies Private Limited (FinTech) | May 2026 – Present |
 | **DevOps Intern** | Davin Technologies | Jul 2026 – Oct 2026 |
 | **DevOps & DevSecOps Intern** | DevOps Insider | Jun 2025 – Jun 2026 |
+
+**Current role:** Azure and AWS infrastructure, Terraform provisioning, Azure DevOps and GitHub Actions, Linux administration, application deployment, monitoring and AI-assisted troubleshooting.
+
+**Education:** B.Tech, Computer Science — ISBM University, June 2023 – Present (expected July 2027).
 
 **Work covered:** Terraform-based automation, multi-cloud provisioning, Azure architecture, YAML CI/CD pipelines, security analysis, cost visibility, and AI-assisted DevOps workflows.
 
