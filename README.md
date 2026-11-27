@@ -24,7 +24,7 @@
 
 **I build cloud infrastructure as code, automate delivery, and put security into the workflow—not at the end of it.**
 
-I'm **Krishna Sharma**, a **DevSecOps Engineer at SmartMudra Technologies Private Limited (FinTech)** since May 2026, with **15 months of DevOps and DevSecOps internship experience** across cloud infrastructure automation, CI/CD, security validation, and multi-cloud environments. **Terraform is my strongest skill**: modular IaC, remote state, locking, backends, workspaces, and resource lifecycle management.
+I'm **Krishna Sharma**, a **DevSecOps Engineer at SmartMudra Technologies Private Limited (FinTech)** since May 2026, with **approximately 1.5 years of overall experience across professional and internship roles** across cloud infrastructure automation, CI/CD, security validation, and multi-cloud environments. **Terraform is my strongest skill**: modular IaC, remote state, locking, backends, workspaces, and resource lifecycle management.
 
 I work primarily with **Microsoft Azure**, with hands-on AWS work and GCP exposure. My current role includes Linux server administration, application deployment, environment configuration, infrastructure and application monitoring, and cloud deployment troubleshooting. I also use **Google Antigravity and AI agents** for AI-assisted Terraform development, infrastructure troubleshooting, and pipeline debugging.
 
